@@ -149,7 +149,7 @@ const services = [{
     },
 ];
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/these.png?raw=true",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
