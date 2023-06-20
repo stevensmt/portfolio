@@ -150,63 +150,37 @@ const services = [{
 ];
 const dataportfolio = [{
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/these.png?raw=true",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Accessibility",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Workshop",
+        link: "#",
+    },
+    {
+        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/research.png?raw=true",
+        description: "Research",
         link: "#",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Prototypage",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/MR.png?raw=true",
+        description: "Mixed Reality",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/VR.png?raw=true",
+        description: "Virtual Reality",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/IceCube.png?raw=true",
+        description: "Ice Cube",
         link: "#",
     },
 ];
