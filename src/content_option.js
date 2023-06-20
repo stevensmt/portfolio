@@ -154,8 +154,8 @@ const dataportfolio = [{
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "Workshop",
+        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/prototype.png?raw=true",
+        description: "Prototypage",
         link: "#",
     },
     {
@@ -163,19 +163,10 @@ const dataportfolio = [{
         description: "Research",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "Prototypage",
-        link: "#",
-    },
+
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/MR.png?raw=true",
         description: "Mixed Reality",
-        link: "#",
-    },
-    {
-        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/VR.png?raw=true",
-        description: "Virtual Reality",
         link: "#",
     },
     {
@@ -183,6 +174,18 @@ const dataportfolio = [{
         description: "Ice Cube",
         link: "#",
     },
+    {
+        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/workshop01.png?raw=true",
+        description: "Workshop",
+        link: "#",
+    },
+
+    {
+        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/VR.png?raw=true",
+        description: "Virtual Reality",
+        link: "#",
+    },
+
 ];
 
 const contactConfig = {
