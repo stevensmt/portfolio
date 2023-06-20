@@ -6,8 +6,11 @@ import {
   dataabout,
   meta,
   worktimeline,
+  jobtimeline,
   skills,
+  learn,
   services,
+  certificat,
 } from "../../content_option";
 
 export const About = () => {
@@ -31,13 +34,17 @@ export const About = () => {
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutme}</p>
+              <p>{dataabout.aboutmeEN}</p>
+              <p></p>
+              <p><i>{dataabout.aboutme}</i></p>
+
             </div>
           </Col>
+          
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Emplois</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -55,9 +62,29 @@ export const About = () => {
             </table>
           </Col>
         </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Etude</h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody>
+                {jobtimeline.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope="row">{data.jobtitle}</th>
+                      <td>{data.where}</td>
+                      <td>{data.date}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </Col>
+        </Row>
         <Row className="sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Skills</h3>
+            <h3 className="color_sec py-4">Tools</h3>
           </Col>
           <Col lg="7">
             {skills.map((data, i) => {
@@ -79,16 +106,37 @@ export const About = () => {
             })}
           </Col>
         </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Certifications</h3>
+          </Col>
+          <Col lg="7">
+            <table className="table caption-top">
+              <tbody>
+                {learn.map((data, i) => {
+                  return (
+                    <tr key={i}>
+                      <th scope="row">{data.jobtitle}</th>
+                      <td>{data.where}</td>
+                      <td>{data.date}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </Col>
+        </Row>
         <Row className="sec_sp">
           <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+            <h3 className="color_sec py-4">Skills</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {
               return (
                 <div className="service_ py-4" key={i}>
                   <h5 className="service__title">{data.title}</h5>
-                  <p className="service_desc">{data.description}</p>
+                  <p className="service_desc">{data.descriptionEn}</p>
+                  <p className="service_desc"><i>{data.description}</i></p>
                 </div>
               );
             })}

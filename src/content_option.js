@@ -1,77 +1,153 @@
-const logotext = "JOHN";
+const logotext = "MARGOT";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Margot Stevens",
+    description: "I’m Margot Stevens UX Designer Currently specialised on Immersive Experience, such as AR-VR-MR.",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Margot Stevens",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love UX design",
+        second: "I design cool immersive experiences",
+        third: "I imagine UserJourney and Level Design",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Hello, I'm an UX Designer currently specialised on Immersive Experience, such as AR-VR-MR.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About me",
+    aboutmeEN: "UX designer, I have specialized through my experiences in immersive technologies such as AR, VR and MR. My various experiences have enabled me to work on the different stages in the production of a solution, i.e. from research, through ideation, level design, right up to production. Personally, I believe that the testing, onboarding and iteration phases are important to ensure the highest quality creation.",
+    aboutme: "UX designer, je me suis spécialisé à travers mes expériences dans les technologies immersives telles que l'AR, la VR et la MR. Mes différentes expériences m'ont permis de travailler sur les différentes étapes de productions d'une solution, c'est-à-dire, de la recherche, en passant par l'idéation, le Level design, jusqu'à la production. Personnellement, je trouve que les phases de test, d'onboarding et d'itération sont importantes pour permettre la création la plus qualitative.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+const worktimeline = [
+    {
+        jobtitle: "UX Design Immersive Experience",
+        where: "Atos - Bezons (95)",
+        date: "01/2021 - Aujourd'hui",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Apprenticeship UX Design Immersive Experience",
+        where: "Atos - Bezons (95)",
+        date: "2021-2022",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "UX-UI Designer",
+        where: "Fanprime - Paris (75)",
+        date: "2019-2021",
     },
 ];
-
+const jobtimeline = [
+    {
+        jobtitle: "Mastère Spécialisé IDE",
+        where: "Gobelins & Cnam-Enjmin - Paris (75)",
+        date: "2021-2022",
+    },
+    {
+        jobtitle: "Mastère en alternance interactivité et UX Design",
+        where: "IIM - Courbevoie (92)",
+        date: "2019-2021",
+    },
+    {
+        jobtitle: "DNA en Design Graphique",
+        where: "ESAD - Valence (26)",
+        date: "2016-2018",
+    },
+];
 const skills = [{
-        name: "Python",
+        name: "Figma - FigJam",
         value: 90,
     },
     {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
+        name: "Blender",
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "Photoshop",
+        value: 80,
+    },
+    {
+        name: "Illustrator",
+        value: 70,
+    },
+    {
+        name: "Unity",
+        value: 60,
+    },
+    {
+        name: "Unreal Engine",
+        value: 60,
+    },
+    {
+        name: "HoloLens",
+        value: 90,
     },
 ];
-
+const learn = [
+    {
+        jobtitle: "Certification PSPO1",
+        date: "2023",
+    },
+    {
+        jobtitle: "Notions de base de Hololens 2 : développer des applications de réalité mixte",
+        where: "Trophée Microsoft Learn",
+        date: "2022",
+    },
+    {
+        jobtitle: "Utilisé Dynamics 364 Guides",
+        where: "Trophée Microsoft Learn",
+        date: "2022",
+    },
+    {
+        jobtitle: "Bases de l’accessibilité du gaming",
+        where: "Trophée Microsoft Learn",
+        date: "2022",
+    },{
+        jobtitle: "Bases de l’accéssibilité",
+        where: "Trophée Microsoft Learn",
+        date: "2022",
+    },{
+        jobtitle: "Formation sur la dyslexie, en partenariat avec Made By Dyslexia",
+        where: "Trophée Microsoft Learn",
+        date: "2022",
+    },
+];
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Workshop",
+        description: "Un workshop est un moment ou un groupe d’individu se regroupe pour atteindre un même objectif. Cela peut être la rédaction d’une problématique, trouver sa réponse ou même travailler sur la cohésion d’équipe.",
+        descriptionEn: "A workshop is a time when a group of people come together to achieve a common goal. This can be writing a problem, finding an answer or even working on team building.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "UX Research",
+        description: "Chaque projet commence par une recherche, celle-ci continu pendant la phase d’idéation et de production.",
+        descriptionEn: "Each project starts with research, which continues during the ideation and production phase.",
     },
     {
-        title: "Wordpress Design",
+        title: "Level Design",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        descriptionEn: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    },
+    {
+        title: "Prototypage",
+        description: "Le processus de prototypage permet de réaliser et tester des fonctionnalités et/ou outils pour définir le potentiel qu’il présente. Cela permet également de fonctionner par itération en testant et en modifiant le prototype. ",
+        descriptionEn: "The prototyping process allows for the development and testing of features and/or tools to define their potential. It also allows for iteration by testing and modifying the prototype.",
+    },
+    {
+        title: "VR Project",
+        description: "Production de projet en VR, présentation, démonstration et mise en place pour expliquer la prise en main de contrôler.",
+        descriptionEn: "Production of VR projects, presentation, demonstration and set-up to explain the handling of the controls.",
+    },
+    {
+        title: "HoloLens",
+        description: "Production de projet en MR, présentation, démonstration et mise en place pour expliquer la prise en main de contrôler.",
+        descriptionEn: "Production of MR projects, presentation, demonstration and set-up to explain the handling of the controls.",
+    },
+    {
+        title: "Accessibility",
+        description: "L’accessibilité et les technologies XR sont des sujets que j’ai à plusieurs reprise rencontrées et sur lequel je travaille encore actuellement. A la base, cette étude a commencé avec ma thèse de fin d’étude, thèse de mastère spécialisé réalisé en 6 mois pendant notre alternance.",
+        descriptionEn: "The accessibility in XR technologies is a subject that I have encountered several times and on which I am still working. Basically, this study started with my end-of-study thesis, a specialised master's thesis carried out in 6 months during our apprenticeship. ",
     },
 ];
-
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
         description: "The wisdom of life consists in the elimination of non-essentials.",
@@ -157,7 +233,9 @@ export {
     dataabout,
     dataportfolio,
     worktimeline,
+    jobtimeline,
     skills,
+    learn,
     services,
     introdata,
     contactConfig,
