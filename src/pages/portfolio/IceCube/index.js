@@ -17,6 +17,12 @@ export const IceCube = () => {
           <title> Ice Cube | {meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
+        <Row className="mb-5 mt-3 pt-md-3">
+          <Col lg="8">
+            <h1 className="display-4 mb-4">Ice Cube</h1>
+            <hr className="t_border my-4 ml-0 text-left" />
+          </Col>
+        </Row>
         <section id="home" className="home">
           <div className="intro_sec d-block d-lg-flex align-items-center ">
             <div
@@ -30,7 +36,7 @@ export const IceCube = () => {
                   <p className="mb-1x">{icecube.none}</p>
                   <p className="mb-1x">{icecube.resumeEN}</p>
                   <p className="mb-1x"><i>{icecube.resume}</i></p>
-                  <p className="mb-1x">{icecube.description}</p>
+                  <a href={icecube.link_game} className="mb-1x">{icecube.description}</a>
                 </div>
               </div>
             </div>

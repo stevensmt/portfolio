@@ -196,7 +196,7 @@ const icecube = {
     titleObj: "Goals",
     objectif: "Ice Cube est un projet de fin d'étude réalisé en parallèle de notre alternance. Nous étions un groupe de quatre et devions réaliser en moins de 6 mois une première expérience du jeu permettant de comprendre son principe. Nous avons réalisé un onboarding d'un plateformer narratif. Pendant la phase de production, j’ai tenu le rôle de Directrice Artistique, Lead Art et ai également tenu le rôle de Level Designer, UX & Motion Designer.",
     objectifEN: "Ice Cube is an end-of-study project carried out in parallel with our work-study program. We were a group of four, and in less than 6 months we had to create a first experience of the game, enabling us to understand its principle. We carried out onboarding for a narrative platformer. During the production phase, I took on the role of Art Director, Lead Art and also Level Designer, UX & Motion Designer.",
-    img_link01: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",   
+    img_link01: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/perso.png?raw=true",   
     img_link02: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/uiux.png?raw=true",
     title03: "UX-UI design",
     ENtext02: "- Sign", 
