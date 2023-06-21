@@ -151,42 +151,58 @@ const services = [{
 const dataportfolio = [{
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/these.png?raw=true",
         description: "Accessibility",
-        link: "#",
+        link: "/accessibility",
     },
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/prototype.png?raw=true",
         description: "Prototypage",
-        link: "#",
+        link: "/prototype",
     },
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/research.png?raw=true",
         description: "Research",
-        link: "#",
+        link: "/research",
     },
 
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/MR.png?raw=true",
         description: "Mixed Reality",
-        link: "#",
+        link: "/MR",
     },
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/IceCube.png?raw=true",
         description: "Ice Cube",
-        link: "#",
+        link: "/IceCube",
     },
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/workshop01.png?raw=true",
         description: "Workshop",
-        link: "#",
+        link: "/workshop",
     },
 
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/VR.png?raw=true",
         description: "Virtual Reality",
-        link: "#",
+        link: "/VR",
     },
 
 ];
+const icecube = {
+    title: "Resume",
+    resume: "here",
+    description: "here",
+    link_game: "",
+    titleObj: "Goals",
+    objectif: "here",
+    img_link01: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",   
+    img_link02: "src/pages/portfolio/IceCube/uiux.png",
+    title02: "UX-UI design",
+    text02: "list", 
+    img_link03: "src/pages/portfolio/IceCube/Level.png",
+    title03: "Level design",
+    text03: "list", 
+};
+
 
 const contactConfig = {
     YOUR_EMAIL: "name@domain.com",
@@ -218,4 +234,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    icecube,
 };
