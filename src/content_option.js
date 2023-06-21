@@ -195,10 +195,10 @@ const icecube = {
     titleObj: "Goals",
     objectif: "here",
     img_link01: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",   
-    img_link02: "src/pages/portfolio/IceCube/uiux.png",
+    img_link02: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/uiux.png?raw=true",
     title02: "UX-UI design",
     text02: "list", 
-    img_link03: "src/pages/portfolio/IceCube/Level.png",
+    img_link03: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/Level.png?raw=true",
     title03: "Level design",
     text03: "list", 
 };
