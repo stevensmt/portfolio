@@ -36,7 +36,6 @@ export const These = () => {
                   <p className="mb-1x">{these.none}</p>
                   <p className="mb-1x">{these.resumeEN}</p>
                   <p className="mb-1x"><i>{these.resume}</i></p>
-                  <a href={these.link_game} className="mb-1x">{these.description}</a>
                 </div>
               </div>
             </div>
