@@ -401,7 +401,7 @@ const workshop = {
 
 
 const socialprofils = {
-    cv: "https://github.com",
+    cv: "https://github.com/stevensmt/portfolio/blob/a347ca1fe05f1abfdbca1163967bbafaf5d3a5a6/src/pages/cv.pdf",
     linkedin: "https://linkedin.com",
     email: "m.stevens@protonmail.com",
 };
