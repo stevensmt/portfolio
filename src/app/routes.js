@@ -9,7 +9,6 @@ import { Research } from "../pages/portfolio/research";
 import { These } from "../pages/portfolio/these";
 import { VirtualReality } from "../pages/portfolio/VirtualReality";
 import { Workshop } from "../pages/portfolio/workshop";
-import { ContactUs } from "../pages/contact";
 import { About } from "../pages/about";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
@@ -35,7 +34,6 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/These" element={<These />} />
         <Route path="/VirtualReality" element={<VirtualReality />} />
         <Route path="/Workshop" element={<Workshop />} />
-        <Route path="/contact" element={<ContactUs />} />
         <Route path="*" element={<Home />} />
 
 

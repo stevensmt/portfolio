@@ -114,40 +114,42 @@ const learn = [
 ];
 const services = [{
         title: "Workshop",
-        description: "Un workshop est un moment ou un groupe d’individu se regroupe pour atteindre un même objectif. Cela peut être la rédaction d’une problématique, trouver sa réponse ou même travailler sur la cohésion d’équipe.",
-        descriptionEn: "A workshop is a time when a group of people come together to achieve a common goal. This can be writing a problem, finding an answer or even working on team building.",
+        description: "Organisation, création de l'emploi du temps en fonction du type de workshop (Discovery workshop, Empathy workshop, Design workshop, Priorization workshop), sélection des ateliers (ice-breaking, idéation… ), compte rendu et itération.",
+        descriptionEn: "Organization, creation of the schedule according to the type of workshop (Discovery workshop, Empathy workshop, Design workshop, Priorization workshop), selection of workshops (ice-breaking, ideation... ), reporting and iteration.",
     },
     {
         title: "UX Research",
-        description: "Chaque projet commence par une recherche, celle-ci continu pendant la phase d’idéation et de production.",
-        descriptionEn: "Each project starts with research, which continues during the ideation and production phase.",
+        description: "Recherche réalisée à partir d'une problématique, d'une entreprise, une situation… Tout d'abord, en commençant par une veille, des interviews, une analyse des données, une synthétisation pour pouvoir présenter la première étape avant d'itérer jusqu'à atteindre l'objectif souhaiter en prenant en compte le plus de point de vue possible.",
+        descriptionEn: "Research carried out on the basis of a problem, a company, a situation... First of all, starting with a watch, interviews, data analysis, synthesis to be able to present the first step before iterating until the desired objective is reached, taking into account as many points of view as possible.",
     },
     {
         title: "Level Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-        descriptionEn: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "On retrouve le level design dans le virtuel et le réel, mais sa construction reprend des étapes qui peuvent être similaires. Tout d'abord, il faut identifier le point de départ, l'utilisateur et l'objectif final. Une fois tout pris en compte, on utilise plusieurs outils (schéma, flowchart ...) pour définir les différentes étapes et le format que cela peut prendre. On essaye de faire tester le niveau le plus possible afin d'avoir un niveau le plus agréable pour l'utilisateur et répondant aux mieux à notre objectif.",
+        descriptionEn: "Level design can be found in both the virtual and the real world, but its construction takes up stages that can be similar. First of all, we need to identify the starting point, the user and the final objective. Once all this has been taken into account, we use various tools (diagram, flowchart, etc.) to define the different stages and the format they can take. We try to have the level tested as much as possible, to ensure that it's as pleasant as possible for the user and best meets our objective.",
     },
     {
         title: "Prototypage",
-        description: "Le processus de prototypage permet de réaliser et tester des fonctionnalités et/ou outils pour définir le potentiel qu’il présente. Cela permet également de fonctionner par itération en testant et en modifiant le prototype. ",
-        descriptionEn: "The prototyping process allows for the development and testing of features and/or tools to define their potential. It also allows for iteration by testing and modifying the prototype.",
+        description: "Le prototypage permet d'expérimenter une idée rapidement et d'itérer en fonction des retours. Le format qu'il prend va dépendre de ce que l'on essaye de tester, ainsi, on peut le réaliser en low-fidelity, ou bien en se rapprochant de projet final. ",
+        descriptionEn: "Prototyping allows you to test an idea quickly and iterate on the feedback. The format it takes will depend on what you're trying to test, so it can be low-fidelity, or closer to the final project. ",
     },
     {
         title: "VR Project",
-        description: "Production de projet en VR, présentation, démonstration et mise en place pour expliquer la prise en main de contrôler.",
-        descriptionEn: "Production of VR projects, presentation, demonstration and set-up to explain the handling of the controls.",
+        description: "Lors de la réalisation de projet en VR, j'ai eu la chance de pouvoir travailler sur les différentes étapes allant jusqu'à la production du Proof of concept. Que ce soit la recherche, la spécification, la création de maquette, le game design, Level design, la production d'assets 3D, leurs intégrations et l'ajout de l'interaction dans l'expérience VR sur Unity principalement. Puis la présentation du projet et la phase de testing.",
+        descriptionEn: "When working on a VR project, I was lucky enough to be able to work on the various stages up to the production of the Proof of Concept. This included research, specification, model creation, game design, level design, production of 3D assets, their integration and the addition of interaction to the VR experience, mainly on Unity. Then the project presentation and testing phase.",
     },
     {
         title: "HoloLens",
-        description: "Production de projet en MR, présentation, démonstration et mise en place pour expliquer la prise en main de contrôler.",
-        descriptionEn: "Production of MR projects, presentation, demonstration and set-up to explain the handling of the controls.",
+        description: "Lors de la réalisation de projet HoloLens, j'ai eu la chance de pouvoir travailler sur les différentes étapes allant jusqu'à la production du Proof of concept. Que ce soit la recherche, la spécification, la création de maquette, le game design, Level design, la production d'assets 3D, leurs intégrations et l'ajout de l'interaction dans l'expérience VR sur Unity et Unreal. Puis la présentation du projet et la phase de testing.",
+        descriptionEn: "While working on HoloLens projects, I was lucky enough to be able to work on the various stages up to the production of the Proof of Concept. This included research, specification, mock-up creation, game design, level design, production of 3D assets, their integration and the addition of interaction to the VR experience on Unity and Unreal. Then the project presentation and testing phase.",
     },
     {
         title: "Accessibility",
-        description: "L’accessibilité et les technologies XR sont des sujets que j’ai à plusieurs reprise rencontrées et sur lequel je travaille encore actuellement. A la base, cette étude a commencé avec ma thèse de fin d’étude, thèse de mastère spécialisé réalisé en 6 mois pendant notre alternance.",
-        descriptionEn: "The accessibility in XR technologies is a subject that I have encountered several times and on which I am still working. Basically, this study started with my end-of-study thesis, a specialised master's thesis carried out in 6 months during our apprenticeship. ",
+        description: "Je travaille principalement sur le sujet de l'accessibilité des expériences XR, dans l'idée de rendre mes expériences le plus accessibles possible, mais également de produire des expériences permettant de rendre plus accessible certaine situation pouvant être bloquante.",
+        descriptionEn: "I'm mainly working on the accessibility of XR experiences, with the idea of making my experiences as accessible as possible, but also of producing experiences that make certain situations that can be blocking more accessible.",
     },
 ];
+
+
 const dataportfolio = [{
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/these.png?raw=true",
         description: "Accessibility",
@@ -182,6 +184,8 @@ const dataportfolio = [{
     },
 
 ];
+
+
 const icecube = {
     title: "Resume",
     resume: "Projet étudiant consistant en la production du onboarding d’un jeu. Notre groupe de quatre étudiants a produit Ice Cube - Ad memoriam, un jeu narratif en 2D réalisé en moins de 6 mois en parallèle de notre alternance.",
@@ -330,8 +334,8 @@ const VR = {
     titleObj: "Goals",
     objectif: "Ice Cube est un projet de fin d'étude réalisé en parallèle de notre alternance. Nous étions un groupe de quatre et devions réaliser en moins de 6 mois une première expérience du jeu permettant de comprendre son principe. Nous avons réalisé un onboarding d'un plateformer narratif. Pendant la phase de production, j’ai tenu le rôle de Directrice Artistique, Lead Art et ai également tenu le rôle de Level Designer, UX & Motion Designer.",
     objectifEN: "Ice Cube is an end-of-study project carried out in parallel with our work-study program. We were a group of four, and in less than 6 months we had to create a first experience of the game, enabling us to understand its principle. We carried out onboarding for a narrative platformer. During the production phase, I took on the role of Art Director, Lead Art and also Level Designer, UX & Motion Designer.",
-    img_link01: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/perso2.png?raw=true",   
-    img_link02: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/uiux.png?raw=true",
+    img_link01: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/VirtualReality/01.png?raw=true",   
+    img_link02: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/VirtualReality/02.png?raw=true",
     title03: "UX-UI design",
     text02: "- Facilitation", 
     txt23: "- Présentation", 
@@ -343,7 +347,7 @@ const VR = {
     ENtxt24: "- Affordability and ergonomy", 
     ENtxt25: "- Mockup et wireframe", 
     ENtxt26: "- User study (persona, userjourney ...)", 
-    img_link03: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/MixedReality/03.png?raw=true",
+    img_link03: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/VirtualReality/03.png?raw=true",
     title02: "Level Design & Onboarding",
     ENtext03: "- Level pacing", 
     ENtxt33: "- Design of the environment and placement of the elements needed for the puzzle", 
@@ -394,22 +398,12 @@ const workshop = {
     none: "-   ", 
 };
 
-const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
-};
+
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
+    cv: "https://github.com",
     linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    email: "m.stevens@protonmail.com",
 };
 export {
     meta,
@@ -421,7 +415,6 @@ export {
     learn,
     services,
     introdata,
-    contactConfig,
     socialprofils,
     logotext,
     icecube,
