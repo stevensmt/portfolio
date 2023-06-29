@@ -12,7 +12,7 @@ const introdata = {
         third: "I imagine UserJourney and Level Design",
     },
     description: "Hello, I'm an UX Designer currently specialised on Immersive Experience, such as AR-VR-MR.",
-    your_img_url: "https://github.com/stevensmt/portfolio/blob/master/src/pages/home/4x/illustration.png?raw=true",
+    your_img_url: "https://github.com/stevensmt/portfolio/blob/master/src/pages/home/img/illustration.png?raw=true",
 };
 
 const dataabout = {
@@ -150,41 +150,44 @@ const services = [{
 ];
 
 
-const dataportfolio = [{
+const dataportfolio = [    
+    {
+    img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/research.png?raw=true",
+    description: "Research",
+    link: "/research",
+    },
+    {
+        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/VR.png?raw=true",
+        description: "Virtual Reality project",
+        link: "/VirtualReality",
+    },
+    
+    {
+        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/workshop01.png?raw=true",
+        description: "Workshop",
+        link: "/workshop",
+    },
+    {
+        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/MR.png?raw=true",
+        description: "Mixed Reality project",
+        link: "/MixedReality",
+    },
+    {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/these.png?raw=true",
         description: "Accessibility",
         link: "/these",
-    },
-    {
-        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/research.png?raw=true",
-        description: "Research",
-        link: "/research",
-    },
-
-    {
-        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/MR.png?raw=true",
-        description: "Mixed Reality",
-        link: "/MixedReality",
     },
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/IceCube.png?raw=true",
         description: "Ice Cube",
         link: "/IceCube",
     },
-    {
-        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/workshop01.png?raw=true",
-        description: "Workshop",
-        link: "/workshop",
-    },
-
-    {
-        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/VR.png?raw=true",
-        description: "Virtual Reality",
-        link: "/VirtualReality",
-    },
-
 ];
 
+const portfolioTxt = {
+    description: "The portfolio I am proposing does not present a specific project (an exception to be taken into account), but general themes encountered in my work. For reasons of confidentiality, I have not included all the projects, but only extracts that highlight my skills and how I have been able to show them off. Of course, I'd be delighted to discuss them with you in more detail. Don't hesitate to contact me by clicking on the email icon or on: m.stevens@protonmail.com",
+    descriptionFR: "Le portfolio que je propose ne présente pas de projet spécifique (une exception à prendre en compte), mais des thèmes généraux rencontrés dans mon travail. Pour des raisons de confidentialité, je n'ai pas inclus tous les projets, mais seulement des extraits qui mettent en évidence mes compétences et la manière dont j'ai pu les mettre en valeur. Bien entendu, je serai ravie d'en discuter avec vous plus en détail. N'hésitez pas à me contacter en cliquant sur l'icône email ou sur : m.stevens@protonmail.com",
+};
 
 const icecube = {
     title: "Resume",
@@ -401,11 +404,12 @@ const workshop = {
 
 
 const socialprofils = {
-    cv: "https://github.com/stevensmt/portfolio/blob/a347ca1fe05f1abfdbca1163967bbafaf5d3a5a6/src/pages/cv.pdf",
-    linkedin: "https://linkedin.com",
+    cv: "https://github.com/stevensmt/portfolio/blob/master/src/pages/home/img/cv.png?raw=true",
+    linkedin: "https://www.linkedin.com/in/margot-stevens-162303185/",
     email: "m.stevens@protonmail.com",
 };
 export {
+    portfolioTxt,
     meta,
     dataabout,
     dataportfolio,
