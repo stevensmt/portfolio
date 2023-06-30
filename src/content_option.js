@@ -154,7 +154,7 @@ const dataportfolio = [
     {
     img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/research.png?raw=true",
     description: "Research",
-    link: "/portfolio/research",
+    link: "/portfolio/Research",
     },
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/VR.png?raw=true",
@@ -165,7 +165,7 @@ const dataportfolio = [
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/workshop01.png?raw=true",
         description: "Workshop",
-        link: "/portfolio/workshop",
+        link: "/portfolio/Workshop",
     },
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/MR.png?raw=true",
@@ -175,7 +175,7 @@ const dataportfolio = [
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/these.png?raw=true",
         description: "Accessibility",
-        link: "/portfolio/these",
+        link: "/portfolio/These",
     },
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/IceCube.png?raw=true",
