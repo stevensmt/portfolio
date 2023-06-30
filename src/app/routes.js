@@ -28,12 +28,12 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/portfolio/IceCube" element={<IceCube />} />
-        <Route path="/portfolio/MixedReality" element={<MixedReality />} />
-        <Route path="/portfolio/Research" element={<Research />} />
-        <Route path="/portfolio/These" element={<These />} />
-        <Route path="/portfolio/VirtualReality" element={<VirtualReality />} />
-        <Route path="/portfolio/Workshop" element={<Workshop />} />
+        <Route path="/IceCube" element={<IceCube />} />
+        <Route path="/MixedReality" element={<MixedReality />} />
+        <Route path="/Research" element={<Research />} />
+        <Route path="/These" element={<These />} />
+        <Route path="/VirtualReality" element={<VirtualReality />} />
+        <Route path="/Workshop" element={<Workshop />} />
         <Route path="*" element={<Home />} />
 
 
