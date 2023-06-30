@@ -12,7 +12,7 @@ const introdata = {
         third: "I imagine UserJourney and Level Design",
     },
     description: "Hello, I'm an UX Designer currently specialised on Immersive Experience, such as AR-VR-MR.",
-    your_img_url: "https://github.com/stevensmt/portfolio/blob/master/src/pages/home/img/illustration.png?raw=true",
+    your_img_url: "https://github.com/stevensmt/portfolio/blob/master/src/pages/home/img/4x/03.png?raw=true",
 };
 
 const dataabout = {
