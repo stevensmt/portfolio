@@ -109,7 +109,8 @@ export const Research = () => {
                   <p className="mb-1x"><i>{research.txt23}</i></p>
                   <p className="mb-1x"><i>{research.txt24}</i></p>
                   <p className="mb-1x"><i>{research.txt25}</i></p>
-                  <p className="mb-1x"><i>{research.txt26}</i></p>                </div>
+                  <p className="mb-1x"><i>{research.txt26}</i></p>                
+                </div>
               </div>
             </div>
           </div>
