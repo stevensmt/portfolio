@@ -154,33 +154,33 @@ const dataportfolio = [
     {
     img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/research.png?raw=true",
     description: "Research",
-    link: "/research",
+    link: "/portfolio/research",
     },
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/VR.png?raw=true",
         description: "Virtual Reality project",
-        link: "/VirtualReality",
+        link: "/portfolio/VirtualReality",
     },
     
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/workshop01.png?raw=true",
         description: "Workshop",
-        link: "/workshop",
+        link: "/portfolio/workshop",
     },
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/MR.png?raw=true",
         description: "Mixed Reality project",
-        link: "/MixedReality",
+        link: "/portfolio/MixedReality",
     },
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/these.png?raw=true",
         description: "Accessibility",
-        link: "/these",
+        link: "/portfolio/these",
     },
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/IceCube.png?raw=true",
         description: "Ice Cube",
-        link: "/IceCube",
+        link: "/portfolio/IceCube",
     },
 ];
 
