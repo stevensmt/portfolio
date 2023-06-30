@@ -215,8 +215,8 @@ const icecube = {
     DeroulementTxt2: "Les zones textuelles ont été mis en place par une collègue et de mon côté j'ai commencé un travail sur les signes, UI permettant de mettre en avant les éléments graphique et expliquant à l'utilisateurs comment intérargir avec. Ses assets ont été réalisé sur Figma, ce qui nous à permis de les mettres en conditions. Tout les assets graphiques on également été intégrer au Figma afin de réaliser des maquettes pour permettre de faciliter le travail de la personne s'occupant de l'intégration.",
     Img1: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/01.png?raw=true",
     Img2: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/02.png?raw=true",
-    Img3: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/03.png?raw=true",
-    Img4: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/04.png?raw=true",
+    Img3: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/003.png?raw=true",
+    Img4: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/004.png?raw=true",
     Img5: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/05.png?raw=true",
 
 
