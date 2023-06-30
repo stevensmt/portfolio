@@ -213,12 +213,11 @@ const icecube = {
     GoalsTxt2: "Le jeu est en 2D avec un déplacement vertical, nous nous situons à flanc de montagne à son sommet. En évoluant dans le jeu nous descendons peu à peu la montagne faisant par la même occasion évoluer la palette graphique. ",
     DeroulementTxt: "Lors de la création des différents assets graphique, j'ai dû effectué une première ébauche du Level design pour aider à prioriser la production des différents assets. Ce schéma avait pour but de définir les différentes étapes qui doivent ce succéder afin de comprendre les méchanismes du jeu et de permettre au joueurs de mieux comprendre et évoluer dans l'espace. Lors du playtest, le déroulement du Level design à aider les différents joueurs à évoluer et nous a permis de mettre en avant un point problématique, l'UX-UI design. Suite à ce playtest, nous avons décidé de ralentir la production des assets graphique pour me permettre de reprendre en main la UX-UI design du jeu et la production des différents assets nécessaire.",
     DeroulementTxt2: "Les zones textuelles ont été mis en place par une collègue et de mon côté j'ai commencé un travail sur les signes, UI permettant de mettre en avant les éléments graphique et expliquant à l'utilisateurs comment intérargir avec. Ses assets ont été réalisé sur Figma, ce qui nous à permis de les mettres en conditions. Tout les assets graphiques on également été intégrer au Figma afin de réaliser des maquettes pour permettre de faciliter le travail de la personne s'occupant de l'intégration.",
-    Img1: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/perso2.png?raw=true",
-    Img2: "https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    Img3: "https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    Img4: "https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    Img5: "https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    Img6: "https://images.pexels.com/photos/1133957/pexels-photo-1133957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    Img1: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/01.png?raw=true",
+    Img2: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/02.png?raw=true",
+    Img3: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/03.png?raw=true",
+    Img4: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/04.png?raw=true",
+    Img5: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/05.png?raw=true",
 
 
     // title: "Information",

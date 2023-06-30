@@ -102,16 +102,17 @@ export const IceCube = () => {
         
 
         <section id="home" className="home">
-        <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
-          
-          <Col lg="6">
+        <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">  
+          <Col lg="7"> 
+          <div className="intro_sec d-block d-lg-flex align-items-center "> 
             <div
-              className="h_bg-image order-1 order-lg-2 h-100 "
+              className="h_bgg-image order-1 order-lg-3 h-100"
               style={{ backgroundImage: `url(${icecube.Img3})` }}
             ></div>
+            </div>
           </Col>
           <Col lg="1"></Col>
-          <Col lg="5"> 
+          <Col lg="4"> 
             <div className="intro mx-auto">
               <br></br>
               <br></br>
@@ -136,7 +137,7 @@ export const IceCube = () => {
 
         <section id="home" className="home">
         <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
-          <Col lg="5"> 
+          <Col lg="4"> 
             <div className="intro mx-auto">
               <br></br>
               <br></br>
@@ -156,11 +157,13 @@ export const IceCube = () => {
             </div>
           </Col> 
           <Col lg="1"></Col>
-          <Col lg="6">
+          <Col lg="7">
+          <div className="intro_sec d-block d-lg-flex align-items-center "> 
             <div
-              className="h_bg-image order-1 order-lg-2 h-100 "
+              className="h_bgg-image order-1 order-lg-3 h-100"
               style={{ backgroundImage: `url(${icecube.Img4})` }}
             ></div>
+            </div>
           </Col>
           </div>
           <div>
