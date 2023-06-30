@@ -216,7 +216,7 @@ const icecube = {
     Img1: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/01.png?raw=true",
     Img2: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/02.png?raw=true",
     Img3: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/003.png?raw=true",
-    Img4: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/0004.png?raw=true",
+    Img4: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/level.png?raw=true",
     Img5: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/05.png?raw=true",
 
 
