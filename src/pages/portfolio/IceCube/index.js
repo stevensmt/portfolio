@@ -46,8 +46,6 @@ export const IceCube = () => {
                 <p className="mb-1x"><b>{icecube.Title02}</b></p>
                 <p className="mb-1x"><i>{icecube.info02}</i></p>
                 <p className="mb-1x"><i>{icecube.info022}</i></p>
-                <p className="mb-1x"><i>{icecube.info023}</i></p>
-                <p className="mb-1x"><i>{icecube.info024}</i></p>
                 <p className="mb-1x"><b>{icecube.Title03}</b></p>
                 <p className="mb-1x"><i>{icecube.info03}</i></p>
 
@@ -63,7 +61,6 @@ export const IceCube = () => {
                 <p className="mb-1x"><b>{icecube.Title04}</b></p>
                 <p className="mb-1x"><i>{icecube.info04}</i></p>
                 <br></br>
-                <a href={icecube.link_game} className="mb-1x">{icecube.description}</a>
               </div>
             </Col>
           </div>
