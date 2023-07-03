@@ -4,7 +4,8 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { 
   meta, 
-  workshop, 
+  workshop,
+  dataportfolio, 
 } from "../../../content_option";
 import { Link } from "react-router-dom";
 
@@ -14,107 +15,163 @@ export const Workshop = () => {
       <Container className="About-header">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> Workshop & Design thinking project | {meta.title}</title>
+          <title> Workshop | {meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4">Workshop & Design thinking project</h1>
+            <h1 className="display-4 mb-4">Workshop</h1>
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
         <section id="home" className="home">
           <div className="intro_sec d-block d-lg-flex align-items-center ">
             <div
-              className="h_bg-image order-1 order-lg-2 h-100 "
-              style={{ backgroundImage: `url(${workshop.img_link01})` }}
+              className="h_bgg-image"
+              style={{ backgroundImage: `url(${workshop.Img1})` }}
             ></div>
-            <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
-              <div className="align-self-center ">
-                <div className="intro mx-auto">
-                  <h2 className="mb-1x">{workshop.title}</h2>
-                  <p className="mb-1x">{workshop.none}</p>
-                  <p className="mb-1x">{workshop.resumeEN}</p>
-                  <p className="mb-1x"><i>{workshop.resume}</i></p>
-                </div>
+          </div>
+          <div><br></br></div>
+        </section>
+
+        <section id="home" className="home">
+          <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
+            <Col lg="4">
+              <div className="intro mx-auto">
+
+                <p className="mb-1x"><b>{workshop.Title01}</b></p>
+                <p className="mb-1x"><i>{workshop.info01}</i></p>
+                <p className="mb-1x"><i>{workshop.info012}</i></p>
+                <p className="mb-1x"><i>{workshop.info013}</i></p>
+                <p className="mb-1x"><b>{workshop.Title02}</b></p>
+                <p className="mb-1x"><i>{workshop.info02}</i></p>
+                <p className="mb-1x"><i>{workshop.info022}</i></p>
+                <p className="mb-1x"><i>{workshop.info023}</i></p>
+                <p className="mb-1x"><b>{workshop.Title03}</b></p>
+                <p className="mb-1x"><i>{workshop.info03}</i></p>
+
               </div>
-            </div>
+            </Col>
+            <Col lg="1"></Col>
+            <Col lg="7">
+              <div className="intro mx-auto">
+                <h2 className="mb-1x">{workshop.ResumeTitle}</h2>
+                <br></br>
+                <p className="mb-1x">{workshop.ResumeTxt}</p>
+                <br></br>
+                <p className="mb-1x"><b>{workshop.Title04}</b></p>
+                <p className="mb-1x"><i>{workshop.info04}</i></p>
+                <br></br>
+              </div>
+            </Col>
+          </div>
+          <div>
+          <br></br>
+          <br></br>
+          <br></br>
           </div>
         </section>
 
         <section id="home" className="home">
           <div className="intro_sec d-block d-lg-flex align-items-center ">
-            <div className="text order-2 order-lg-2 h-200 d-lg-flex justify-content-center">
-              <div className="align-self-center ">
-                <div className="intro mx-auto">
-                  <h2 className="mb-1x">{workshop.titleObj}</h2>
-                  <p className="mb-1x">{workshop.none}</p>
-                  <p className="mb-1x">{workshop.objectifEN}</p>
-                  <p className="mb-1x"><i>{workshop.objectif}</i></p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="home" className="home">
-          <div className="intro_sec d-block d-lg-flex align-items-center ">
-          <div  className="text order-1 order-lg-2 h-100 d-lg-flex justify-content-center">
-              <div className="align-self-center ">
-                <div className="intro mx-auto">
-                  <h2 className="mb-1x">{workshop.title03}</h2>
-                  <p className="mb-1x">{workshop.none}</p>
-                  <p className="mb-1x">{workshop.ENtext03}</p>
-                  <p className="mb-1x">{workshop.ENtxt33}</p>
-                  <p className="mb-1x">{workshop.ENtxt34}</p>
-                  <p className="mb-1x">{workshop.ENtxt35}</p>
-                  <p className="mb-1x">{workshop.ENtxt36}</p>
-                  <p className="mb-1x">{workshop.none}</p>
-                  <p className="mb-1x"><i>{workshop.text03}</i></p>
-                  <p className="mb-1x"><i>{workshop.txt33}</i></p>
-                  <p className="mb-1x"><i>{workshop.txt34}</i></p>
-                  <p className="mb-1x"><i>{workshop.txt35}</i></p>
-                  <p className="mb-1x"><i>{workshop.txt36}</i></p>
-                </div>
-              </div>
-            </div>
             <div
-              className="h_bg-image order-2 order-lg-1 h-100 "
-              style={{ backgroundImage: `url(${workshop.img_link02})` }}
+              className="h_bgg-image"
+              style={{ backgroundImage: `url(${workshop.Img2})` }}
             ></div>
           </div>
         </section>
-        <Row className="mb-5 mt-3 pt-md-3">
-          <Col lg="8">
+
+        <section>
+            <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
+              <Col lg="10">
+                <div className="intro mx-auto justify-content-center">
+                  <p className="mb-1x">{workshop.GoalsTxt}</p>
+                  <p className="mb-1x">{workshop.GoalsTxt2}</p>
+                </div>
+              </Col>
+            </div>
+            <div>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+            </div>
+        </section>
+
+        
+
+        <section id="home" className="home">
+        <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">  
+          <Col lg="7"> 
+          <div className="intro_sec d-block d-lg-flex align-items-center "> 
+            <div
+              className="h_bgg-image order-1 order-lg-3 h-100"
+              style={{ backgroundImage: `url(${workshop.Img3})` }}
+            ></div>
+            </div>
           </Col>
-        </Row>
-        <section id="home" className="home">
-          <div className="intro_sec d-block d-lg-flex align-items-center ">
-            <div
-              className="h_bg-image order-1 order-lg-2 h-100 "
-              style={{ backgroundImage: `url(${workshop.img_link03})` }}
-            ></div>
-            <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
-              <div className="align-self-center ">
-                <div className="intro mx-auto">
-                  <h2 className="mb-1x">{workshop.title02}</h2>
-                  <p className="mb-1x">{workshop.none}</p>
-                  <p className="mb-1x">{workshop.ENtext02}</p>
-                  <p className="mb-1x">{workshop.ENtxt23}</p>
-                  <p className="mb-1x">{workshop.ENtxt24}</p>
-                  <p className="mb-1x">{workshop.ENtxt25}</p>
-                  <p className="mb-1x">{workshop.ENtxt26}</p>
-                  <p className="mb-1x">{workshop.none}</p>
-                  <p className="mb-1x"><i>{workshop.text02}</i></p>
-                  <p className="mb-1x"><i>{workshop.txt23}</i></p>
-                  <p className="mb-1x"><i>{workshop.txt24}</i></p>
-                  <p className="mb-1x"><i>{workshop.txt25}</i></p>
-                  <p className="mb-1x"><i>{workshop.txt26}</i></p>                </div>
-              </div>
+          <Col lg="1"></Col>
+          <Col lg="4"> 
+            <div className="intro mx-auto">
+              <p className="mb-1x">{workshop.DeroulementTxt}</p>
             </div>
+          </Col> 
+          </div>
+          <div>
+          <br></br>
+          <br></br>
+          <br></br>
           </div>
         </section>
 
+        <section id="home" className="home">
+        <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
+          <Col lg="4"> 
+            <div className="intro mx-auto">
+
+              <p className="mb-1x">{workshop.DeroulementTxt2}</p> 
+
+            </div>
+          </Col> 
+          <Col lg="1"></Col>
+          <Col lg="7">
+          <div className="intro_sec d-block d-lg-flex "> 
+            <div
+              className="h_bgg-image order-1 order-lg-3 h-100"
+              style={{ backgroundImage: `url(${workshop.Img4})` }}
+            ></div>
+            </div>
+          </Col>
+          </div>
+          <div>
+          <br></br>
+          <br></br>
+          <br></br>
+          </div>
+        </section>
+
+        <section id="home" className="home">
+          <div className="intro_sec d-block d-lg-flex align-items-center ">
+            <div
+              className="h_bgg-image"
+              style={{ backgroundImage: `url(${workshop.Img5})` }}
+            ></div>
+          </div>
+          <div className="d-block d-lg-flex align-items-center ">
+            <div className="intro mx-auto">
+              <a href={workshop.backLink}><b>Previous project</b></a>
+            </div>
+            <div className="intro mx-auto"></div>
+            <div className="intro mx-auto">
+              <a href={workshop.nextLink}><b>Next project</b></a>
+            </div>
+          </div>
+          <div>
+            <br></br>
+            <br></br>
+            <br></br>
+         </div>
+      </section>
       </Container>
     </HelmetProvider>
   );

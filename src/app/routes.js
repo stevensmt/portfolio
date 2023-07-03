@@ -5,7 +5,6 @@ import { Home } from "../pages/home";
 import { Portfolio } from "../pages/portfolio";
 import { IceCube } from "../pages/portfolio/IceCube";
 import { MixedReality } from "../pages/portfolio/MixedReality";
-import { Research } from "../pages/portfolio/research";
 import { These } from "../pages/portfolio/these";
 import { VirtualReality } from "../pages/portfolio/VirtualReality";
 import { Workshop } from "../pages/portfolio/workshop";
@@ -30,7 +29,6 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/IceCube" element={<IceCube />} />
         <Route path="/MixedReality" element={<MixedReality />} />
-        <Route path="/Research" element={<Research />} />
         <Route path="/These" element={<These />} />
         <Route path="/VirtualReality" element={<VirtualReality />} />
         <Route path="/Workshop" element={<Workshop />} />
