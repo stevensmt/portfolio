@@ -372,6 +372,7 @@ const these = {
     nextLink:"/portfolio/VirtualReality",
     backLink:"/portfolio/Workshop",
 
+    
     // title: "Resume",
     // resume: "L’accessibilité et les technologies XR sont des sujets que j’ai à plusieurs reprise rencontrées et sur lequel je travaille encore actuellement. A la base, cette étude a commencé avec ma thèse de fin d’étude, thèse de mastère spécialisé réalisé en 6 mois pendant notre alternance.",
     // resumeEN: "The accessibility in XR technologies is a subject that I have encountered several times and on which I am still working. Basically, this study started with my end-of-study thesis, a specialised master's thesis carried out in 6 months during our apprenticeship.",
