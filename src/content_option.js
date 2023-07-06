@@ -1,7 +1,7 @@
 const logotext = "MARGOT";
 const meta = {
     title: "Margot Stevens",
-    description: "I’m Margot Stevens UX Designer Currently specialised on Immersive Experience, such as AR-VR-MR.",
+    description: "Je suis Margot Stevens, UX designer actuellement spécialisé dans l'immersive expérience, c'est-à-dire les technologies AR-VR-MR.",
 };
 
 const introdata = {
@@ -11,14 +11,14 @@ const introdata = {
         second: "I design cool immersive experiences",
         third: "I imagine UserJourney and Level Design",
     },
-    description: "Hello, I'm an UX Designer currently specialised on Immersive Experience, such as AR-VR-MR.",
+    description: "Bonjour, je suis UX designer, actuellement spécialisé dans l'immersive expérience, c'est-à-dire les technologies AR-VR-MR.",
     your_img_url: "https://github.com/stevensmt/portfolio/blob/master/src/pages/home/img/4x/03.png?raw=true",
 };
 
 const dataabout = {
     title: "About me",
     aboutmeEN: "UX designer, I have specialized through my experiences in immersive technologies such as AR, VR and MR. My various experiences have enabled me to work on the different stages in the production of a solution, i.e. from research, through ideation, level design, right up to production. Personally, I believe that the testing, onboarding and iteration phases are important to ensure the highest quality creation.",
-    aboutme: "UX designer, je me suis spécialisé à travers mes expériences dans les technologies immersives telles que l'AR, la VR et la MR. Mes différentes expériences m'ont permis de travailler sur les différentes étapes de productions d'une solution, c'est-à-dire, de la recherche, en passant par l'idéation, le Level design, jusqu'à la production. Personnellement, je trouve que les phases de test, d'onboarding et d'itération sont importantes pour permettre la création la plus qualitative.",
+    aboutme: "UX designer, je me suis spécialisé à travers mes expériences dans les technologies immersives telles que l'AR, la VR et la MR. Mes différentes expériences m'ont permis de travailler sur les différentes étapes de production d'une solution, c'est-à-dire, de la recherche, en passant par l'idéation, le Level design, jusqu'à la production. Personnellement, je trouve que les phases de test, d'onboarding et d'itération sont importantes pour permettre la création la plus qualitative.",
 };
 const worktimeline = [
     {
@@ -27,12 +27,12 @@ const worktimeline = [
         date: "01/2021 - Aujourd'hui",
     },
     {
-        jobtitle: "Apprenticeship UX Design Immersive Experience",
+        jobtitle: "Contrat Apprentissage UX Design Immersive Experience",
         where: "Atos - Bezons (95)",
         date: "2021-2022",
     },
     {
-        jobtitle: "UX-UI Designer",
+        jobtitle: "Contrat Apprentissage UX-UI Designer",
         where: "Fanprime - Paris (75)",
         date: "2019-2021",
     },
@@ -119,12 +119,12 @@ const services = [{
     },
     {
         title: "UX Research",
-        description: "Recherche réalisée à partir d'une problématique, d'une entreprise, une situation… Tout d'abord, en commençant par une veille, des interviews, une analyse des données, une synthétisation pour pouvoir présenter la première étape avant d'itérer jusqu'à atteindre l'objectif souhaiter en prenant en compte le plus de point de vue possible.",
+        description: "Recherche réalisée à partir d'une problématique, d'une entreprise, une situation… Tout d'abord, en commençant par une veille, des interviews, une analyse des données, une synthétisation pour pouvoir présenter la première étape avant d'itérer jusqu'à atteindre l'objectif souhaité en prenant en compte le plus de points de vue possible.",
         descriptionEn: "Research carried out on the basis of a problem, a company, a situation... First of all, starting with a watch, interviews, data analysis, synthesis to be able to present the first step before iterating until the desired objective is reached, taking into account as many points of view as possible.",
     },
     {
         title: "Level Design",
-        description: "On retrouve le level design dans le virtuel et le réel, mais sa construction reprend des étapes qui peuvent être similaires. Tout d'abord, il faut identifier le point de départ, l'utilisateur et l'objectif final. Une fois tout pris en compte, on utilise plusieurs outils (schéma, flowchart ...) pour définir les différentes étapes et le format que cela peut prendre. On essaye de faire tester le niveau le plus possible afin d'avoir un niveau le plus agréable pour l'utilisateur et répondant aux mieux à notre objectif.",
+        description: "On retrouve le level design dans le virtuel et le réel, mais sa construction reprend des étapes qui peuvent être similaires. Tout d'abord, il faut identifier le point de départ, l'utilisateur et l'objectif final. Une fois tout pris en compte, on utilise plusieurs outils (schéma, flowchart ...) pour définir les différentes étapes et le format que cela peut prendre. On essaye de faire tester le niveau le plus possible afin d'avoir un niveau le plus agréable pour l'utilisateur et répondant au mieux à notre objectif.",
         descriptionEn: "Level design can be found in both the virtual and the real world, but its construction takes up stages that can be similar. First of all, we need to identify the starting point, the user and the final objective. Once all this has been taken into account, we use various tools (diagram, flowchart, etc.) to define the different stages and the format they can take. We try to have the level tested as much as possible, to ensure that it's as pleasant as possible for the user and best meets our objective.",
     },
     {
@@ -134,17 +134,17 @@ const services = [{
     },
     {
         title: "VR Project",
-        description: "Lors de la réalisation de projet en VR, j'ai eu la chance de pouvoir travailler sur les différentes étapes allant jusqu'à la production du Proof of concept. Que ce soit la recherche, la spécification, la création de maquette, le game design, Level design, la production d'assets 3D, leurs intégrations et l'ajout de l'interaction dans l'expérience VR sur Unity principalement. Puis la présentation du projet et la phase de testing.",
+        description: "Lors de la réalisation de projets en VR, j'ai eu la chance de pouvoir travailler sur les différentes étapes allant jusqu'à la production du Proof of concept. Que ce soit la recherche, la spécification, la création de maquette, la game design, Level design, la production d'assets 3D, leurs intégrations et l'ajout de l'interaction dans l'expérience VR sur Unity principalement. Puis la présentation du projet et la phase de testing.",
         descriptionEn: "When working on a VR project, I was lucky enough to be able to work on the various stages up to the production of the Proof of Concept. This included research, specification, model creation, game design, level design, production of 3D assets, their integration and the addition of interaction to the VR experience, mainly on Unity. Then the project presentation and testing phase.",
     },
     {
         title: "HoloLens",
-        description: "Lors de la réalisation de projet HoloLens, j'ai eu la chance de pouvoir travailler sur les différentes étapes allant jusqu'à la production du Proof of concept. Que ce soit la recherche, la spécification, la création de maquette, le game design, Level design, la production d'assets 3D, leurs intégrations et l'ajout de l'interaction dans l'expérience VR sur Unity et Unreal. Puis la présentation du projet et la phase de testing.",
+        description: "Lors de la réalisation de projets HoloLens, j'ai eu la chance de pouvoir travailler sur les différentes étapes allant jusqu'à la production du Proof of concept. Que ce soit la recherche, la spécification, la création de maquette, la game design, Level design, la production d'assets 3D, leurs intégrations et l'ajout de l'interaction dans l'expérience VR sur Unity et Unreal. Puis la présentation du projet et la phase de testing.",
         descriptionEn: "While working on HoloLens projects, I was lucky enough to be able to work on the various stages up to the production of the Proof of Concept. This included research, specification, mock-up creation, game design, level design, production of 3D assets, their integration and the addition of interaction to the VR experience on Unity and Unreal. Then the project presentation and testing phase.",
     },
     {
         title: "Accessibility",
-        description: "Je travaille principalement sur le sujet de l'accessibilité des expériences XR, dans l'idée de rendre mes expériences le plus accessibles possible, mais également de produire des expériences permettant de rendre plus accessible certaine situation pouvant être bloquante.",
+        description: "Je travaille principalement sur le sujet de l'accessibilité des expériences XR, dans l'idée de rendre mes expériences les plus accessibles possible, mais également de produire des expériences permettant de rendre plus accessible certaine situation pouvant être bloquante.",
         descriptionEn: "I'm mainly working on the accessibility of XR experiences, with the idea of making my experiences as accessible as possible, but also of producing experiences that make certain situations that can be blocking more accessible.",
     },
 ];
@@ -180,10 +180,7 @@ const dataportfolio = [
     },
 ];
 
-const portfolioTxt = {
-    description: "The portfolio I am proposing does not present a specific project (an exception to be taken into account), but general themes encountered in my work. For reasons of confidentiality, I have not included all the projects, but only extracts that highlight my skills and how I have been able to show them off. Of course, I'd be delighted to discuss them with you in more detail. Don't hesitate to contact me by clicking on the email icon or on: m.stevens@protonmail.com",
-    descriptionFR: "Le portfolio que je propose ne présente pas de projet spécifique (une exception à prendre en compte), mais des thèmes généraux rencontrés dans mon travail. Pour des raisons de confidentialité, je n'ai pas inclus tous les projets, mais seulement des extraits qui mettent en évidence mes compétences et la manière dont j'ai pu les mettre en valeur. Bien entendu, je serai ravie d'en discuter avec vous plus en détail. N'hésitez pas à me contacter en cliquant sur l'icône email ou sur : m.stevens@protonmail.com",
-};
+
 
 const icecube = {
     Where:"Cnam-Enjmin",
@@ -201,14 +198,14 @@ const icecube = {
     Title04: "Outils",
     info04: "Photoshop, illustrator, Figma, Unity, Github, Notion, AfterEffect ...",
     ResumeTitle: "Résumé",
-    ResumeTxt: "Ice Cube est un jeu narratif, où vous redéfinissez la mémoire de tout un village. Vous incarnez un esprit revenu sur terre pour aider à faire évoluer un village. Au cours de votre aventure vous récolterez des glaçons emprisonant des souvenirs, à vous de voir si vous voulez vous en souvenirs ou les oubliez. Porté par mon équipe et moi-même dans le cadre du Mastère IDE (double diplôme Gobelins – Cnam-Enjmin), ce jeu a été développé entre février et mai 2022 avec une durée effective d’un mois et demi de travail. Ice Cube est pour moi ma première expérience sur un jeu vidéo en tant que Lead Art. Outre la gestion de la direction artistique du jeu, j'étais en charge de la production des assets 2D, de l'UX et de l'UI, et d'une partie du level design.",
+    ResumeTxt: "Ice Cube est un jeu narratif, où vous redéfinissez la mémoire de tout un village. Vous incarnez un esprit revenu sur terre pour aider à faire évoluer un village. Au cours de votre aventure vous récolterez des glaçons emprisonnant des souvenirs, à vous de voir si vous voulez vous en souvenirs ou les oublier. Porté par mon équipe et moi-même dans le cadre du Mastère IDE (double diplôme Gobelins – Cnam-Enjmin), ce jeu a été développé entre février et mai 2022 avec une durée effective d’un mois et demi de travail. Ice Cube est pour moi ma première expérience sur un jeu vidéo en tant que Lead Art. Outre la gestion de la direction artistique du jeu, j'étais en charge de la production des assets 2D, de l'UX et de l'UI, et d'une partie du Level design.",
     link_game: "https://shynis.itch.io/ice-cubes",
     description: "Play here",
     GoalsTitle: "Objectif",
-    GoalsTxt:"Le jeu propose une narration interactive faisant évoluer l'environnement en fonction des choix du joueur. Nous voulions un décor évolutif, où l'impact de nos choix sont réellement visible. L'esthétique ce veux épuré et s'inspire de villages Ardéchois et Drômois, mais également de l’illustrateurs Jirō Taniguchi, de l’artiste Michiel Scrijver, et des jeux Sky : the children of light et Gris.",
-    GoalsTxt2: "Le jeu est en 2D avec un déplacement vertical, nous nous situons à flanc de montagne à son sommet. En évoluant dans le jeu nous descendons peu à peu la montagne faisant par la même occasion évoluer la palette graphique. ",
-    DeroulementTxt: "Lors de la création des différents assets graphique, j'ai dû effectué une première ébauche du Level design pour aider à prioriser la production des différents assets. Ce schéma avait pour but de définir les différentes étapes qui doivent ce succéder afin de comprendre les méchanismes du jeu et de permettre au joueurs de mieux comprendre et évoluer dans l'espace. Lors du playtest, le déroulement du Level design à aider les différents joueurs à évoluer et nous a permis de mettre en avant un point problématique, l'UX-UI design. Suite à ce playtest, nous avons décidé de ralentir la production des assets graphique pour me permettre de reprendre en main la UX-UI design du jeu et la production des différents assets nécessaire.",
-    DeroulementTxt2: "Les zones textuelles ont été mis en place par une collègue et de mon côté j'ai commencé un travail sur les signes, UI permettant de mettre en avant les éléments graphique et expliquant à l'utilisateurs comment intérargir avec. Ses assets ont été réalisé sur Figma, ce qui nous à permis de les mettres en conditions. Tout les assets graphiques on également été intégrer au Figma afin de réaliser des maquettes pour permettre de faciliter le travail de la personne s'occupant de l'intégration.",
+    GoalsTxt:"Le jeu propose une narration interactive faisant évoluer l'environnement en fonction des choix du joueur. Nous voulions un décor évolutif, où l'impact de nos choix sont réellement visibles. L'esthétique se veut épurée et s'inspire de villages Ardéchois et Drômois, mais également de l’illustrateur Jirō Taniguchi, de l’artiste Michiel Scrijver, et des jeux Sky : the children of light et Gris.",
+    GoalsTxt2: "Le jeu est en 2D avec un déplacement vertical, nous nous situons à flanc de montagne à son sommet. En évoluant dans le jeu, nous descendons peu à peu la montagne, faisant par la même occasion évoluer la palette graphique. ",
+    DeroulementTxt: "Lors de la création des différents assets graphiqués, j'ai dû effectuer une première ébauche du Level design pour aider à prioriser la production des différents assets. Ce schéma avait pour but de définir les différentes étapes qui doivent se succéder afin de comprendre les mécanismes du jeu et de permettre aux joueurs de mieux comprendre et évoluer dans l'espace. Lors du playtest, le déroulement du Level design a aidé les différents joueurs à évoluer et nous a permis de mettre en avant un point problématique, l'UX-UI design. Suite à ce playtest, nous avons décidé de ralentir la production des assets graphique pour me permettre de reprendre en main la UX-UI design du jeu et la production des différents assets nécessaire.",
+    DeroulementTxt2: "Les zones textuelles ont été mises en place par une collègue et de mon côté j'ai commencé un travail sur les signes, UI permettant de mettre en avant les éléments graphique et expliquant à l'utilisateur comment interagir avec. Ses assets ont été réalisés sur Figma, ce qui nous a permis de mettre en condition. Tous les assets graphiques ont également été intégrés au Figma afin de réaliser des maquettes pour permettre de faciliter le travail de la personne s'occupant de l'intégration.",
     Img1: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/img.png?raw=true",
     Img2: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/02.png?raw=true",
     Img3: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/003.png?raw=true",
@@ -250,7 +247,7 @@ const icecube = {
     // txt36: "- Schématisation de la mise en place des éléments de décors",
     // none: "-   ", 
     nextLink:"/portfolio/Workshop",
-    backLink:"/portfolio/These",
+    backLink:"/portfolio/MixedReality",
 };
 const MR = {
     Title01: "Catégories",
@@ -264,20 +261,20 @@ const MR = {
     Title04: "Outils",
     info04: "Unity, Unreal Engine, Blender, Figma, FigJam, ...",
     ResumeTitle: "Résumé",
-    ResumeTxt: "Expérience HoloLens permettant à plusieurs utilisateurs de ce connecter sur la même expérience et de dessiner ensemble.",
+    ResumeTxt: "Expérience HoloLens permettant à plusieurs utilisateurs de se connecter sur la même expérience et de dessiner ensemble.",
     GoalsTitle: "Objectif",
-    GoalsTxt:"L'objectif était dans un premier temps de tester le système multijoueur sur HoloLens, et de proposer une expérience collaborative ou l'utilisateur pourrait expérimenter librement.",
-    GoalsTxt2: "L'idée est de proposer un outil pouvant être utiliser pour permettre à plusieurs utilisateur de réfléchir et expérimenter ensemble. Outils pouvant être utiliser pendant les phase de workshop, de design thinking ou même de schématisation, cela permet de faciliter le partage des idées et d'intérargir à distance avec des personnes pouvant ce trouver dans un autre pays. Le projet ce veux affordant et simple d'utilisation.",
-    DeroulementTxt: "Un premier prototype a été réalisé pour tester la faisabilité technique et faire une veille sur les technologies a utilisé. Ce premier prototype ce voulait au plus simple et ne permettait que de rejoindre une expérience collaborative, dessiner et effacer, celui ci fut tester afin auprès d'utilisateur connaissant plus ou moins l'outils afin de vérifier sa bonne prise en main et son utilisation. La première phase de test nous a permis d'identifier les fonctionnalités à rajouter en priorité et les controlles à mettre en place. J'ai donc effctuer de nombreuse maquette partager avec le developper afin de finctionner étape par étape avec lui afin de réalisé une nouvelle version de l'expérience.",
-    DeroulementTxt2: "Le premier prototype découle d'un questionnement sur l'accessibilité. Je voulais réliser un premier test pour savoir si la connexion de plusieurs HoloLens en direct était possible et surtout permettait d'intérargir en live ensemble. Je voulais également vérifier si les gestes de l'HoloLens était bien affordant. L'outil a évoluer par la suite et m'a permis de valider mes questionnements.",
+    GoalsTxt:"L'objectif était dans un premier temps à tester le système multijoueur sur HoloLens, et de proposer une expérience collaborative où l'utilisateur pourrait expérimenter librement.",
+    GoalsTxt2: "L'idée est de proposer un outil pouvant être utilisé pour permettre à plusieurs utilisateurs de réfléchir et expérimenter ensemble. Outils pouvant être utilisés pendant les phases de workshop, de design thinking ou même de schématisation, cela permet de faciliter le partage des idées et d'interagir à distance avec des personnes pouvant se trouver dans un autre pays. Le projet se veut affordant et simple d'utilisation.",
+    DeroulementTxt: "Un premier prototype a été réalisé pour tester la faisabilité technique et faire une veille sur les technologies a utilisé. Ce premier prototype se voulait au plus simple et ne permettait que de rejoindre une expérience collaborative, dessiner et effacer, celui-ci fut testé afin auprès d'utilisateur connaissant plus ou moins l'outil afin de vérifier sa bonne prise en main et son utilisation. La première phase de test nous a permis d'identifier les fonctionnalités à rajouter en priorité et les contrôles à mettre en place. J'ai donc effectué de nombreuses maquettes partagées avec le développer afin de fonctionner étape par étapes avec lui afin de réaliser une nouvelle version de l'expérience.",
+    DeroulementTxt2: "Le premier prototype découle d'un questionnement sur l'accessibilité. Je voulais réaliser un premier test pour savoir si la connexion de plusieurs HoloLens en direct était possible et surtout permettait d'interagir en live ensemble. Je voulais également vérifier si les gestes de l'HoloLens était bien affordant. L'outil a évolué par la suite et m'a permis de valider mes questionnements.",
     Img1: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/MixedReality/001.png?raw=true",
     Img2: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/MixedReality/002.png?raw=true",
     Img3: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/MixedReality/003.png?raw=true",
     Img4: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/MixedReality/004.png?raw=true",
     Img5: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/MixedReality/005.png?raw=true",
     
-    nextLink:"/portfolio/Workshop",
-    backLink:"/portfolio/These",
+    nextLink:"/portfolio/IceCube",
+    backLink:"/portfolio/VirtualReality",
 
     // title: "Resume",
     // resume: "Production de projet en MR, présentation, démonstration et mise en place pour expliquer la prise en main de contrôler.",
@@ -360,20 +357,20 @@ const these = {
     Title04: "Outils",
     info04: "Unity, Blender, Notion, Indesign ...",
     ResumeTitle: "Résumé",
-    ResumeTxt: "L’accessibilité et les technologies XR sont des sujets que j’ai à plusieurs reprise rencontrées et sur lequel je travaille encore actuellement. A la base, cette étude a commencé avec ma thèse de fin d’étude, thèse de mastère spécialisé réalisé en 6 mois pendant notre alternance. Lorsqu'on par de personne en situation de handicap, le mot situation est important, une personne est en situation de handicap lorsque son environnement n'est pas en adéquation avec ses besoins, resultant ainsi d'une barrière. Hors à ce jour, 1 personne sur 6 (d'après un rapport de l'INSEE de 2018) est en situation de handicap en France. Face a ce constat et au retour de collègue est de proche j'ai commencé mes recherches sur l'accessibilité à travers des technologies immersives. Car si je ne peux pas toujours transformer le réel pour le rendre accéssible est-ce que le virtuel pourrait aider à le rendre accéssible ?",
+    ResumeTxt: "L’accessibilité et les technologies XR sont des sujets que j’ai à plusieurs reprises rencontrés et sur lequel je travaille encore actuellement. À la base, cette étude a commencé avec ma thèse de fin d’étude, thèse de mastère spécialisé réalisé en 6 mois pendant notre alternance. Lorsqu'on parle de personne en situation de handicap, le mot situation est important, une personne est en situation de handicap lorsque son environnement n'est pas en adéquation avec ses besoins, résultant ainsi d'une barrière. Or, à ce jour, 1 personne sur 6 (d'après un rapport de l'INSEE de 2018) est en situation de handicap en France. Face a ce constat et au retour de collègue et de proche, j'ai commencé mes recherches sur l'accessibilité à travers des technologies immersives. Car si je ne peux pas toujours transformer le réel pour le rendre accessible, est-ce que le virtuel pourrait aider à le rendre accessible ?",
     GoalsTitle: "Objectif",
-    GoalsTxt:"L'objectif de cette étude était de définir si les technologies XR peuvent être une source d'aide pour les personnes en situation de handicap, mais également quel éléments doivent être pris en compte lors du développement de l'expérience. ",
-    GoalsTxt2: "Personnellement, mon oobjectif était égalment de pouvoir travailler au plus proche des utilisateurs finaux et également de sensibiliser sur le sujet. Dans mes recherches une partie importante fut de réaliser des documents pour partager ce que je trouvais. Les éléments de language et les points mis en avant évoluant en fonction des interlocuteurs. J'ai ainsi travailler sur la facilitation du message, et essayer de développer de l'empathie lors de la création de mon discours. Pour certain l'humain était au centre de mon discours, pour d'autre l'idée de performance ou encore l'idée de généralisation (rendre accessible pour une parsonne facilite l'expérience pour plusieurs).",
-    DeroulementTxt: "Au commencement de mes recherches j'ai dû réaliser des choix sur les thèmes aborder. Dans un premier temps j'ai fait le choix de réaliser mes recherches autour de l'handicap cognitif et dans le cadre du travail. L'idée étant d'évoluer par étape, avec des itérations. Après une première phase de recherche pour mieux comprendre les enjeux, une étape d'entretiens qualitatif a été effectué pour mieux comprendre les problématiques rencontrés dans le cadre du travail, sur l'image qu'ils perçoivent de leurs handicap, des démarches qu'ils ont où non effectué pour être reconnus par la médecine du travail et des aides qu'ils reçoivent ou non. Cela m'a permis d'identifier plusieurs problématiques récurentes et également unmoment spécifique sur lequel se focaliser dans un premier temps, la réunion. La réunion, est ainsi devenus le moment à faire évoluer, ainsi en croisant les différents entretiens j'ai pu décrire le prototype à effectué et les points crutiale à mettre en place, notamment la possibilités de choisir, de modifier et régler en fonction de ses besoins.",
-    DeroulementTxt2: "A ce jour, la phase de prototypage est en pause et a été analyser à partir de traiter scientifique, faute de moyens humains et techniques. Toutefois, le projet n'a pas été abandonner, il évolue encore à travers un travail de sensibilisation, de facilitation. De mon côté, je cherche toujours à prendre en compte l'accessibilités lors de la production d'expérience, lors de la réalisation de modèle 3D, de leurs intégration par rapport à l'utilisateur, le déroulement, et comment prendre contact avec les utilisateurs.",
+    GoalsTxt:"L'objectif de cette étude était de définir si les technologies XR peuvent être une source d'aide pour les personnes en situation de handicap, mais également quel élément doivent être pris en compte lors du développement de l'expérience. ",
+    GoalsTxt2: "Personnellement, mon objectif était également de pouvoir travailler au plus proche des utilisateurs finals et également de sensibiliser sur le sujet. Dans mes recherches, une partie importante fut de réaliser des documents pour partager ce que je trouvais. Les éléments de langage et les points mis en avant évoluant en fonction des interlocuteurs. J'ai ainsi travaillé sur la facilitation du message, et essayer de développer de l'empathie lors de la création de mon discours. Pour certain l'humain était au centre de mon discours, pour d'autres l'idée de performance ou encore l'idée de généralisation (rendre accessible pour une personne facilite l'expérience pour plusieurs).",
+    DeroulementTxt: "Au commencement de mes recherches, j'ai dû réaliser des choix sur les thèmes abordés. Dans un premier temps j'ai fait le choix de réaliser mes recherches autour de ce handicap cognitif et dans le cadre du travail. L'idée étant d'évoluer par étapes, avec des itérations. Après une première phase de recherche pour mieux comprendre les enjeux, une étape d'entretiens qualitatifs a été effectuée pour mieux comprendre les problématiques rencontrées dans le cadre du travail, sur l'image qu'ils perçoivent de leur handicap, des démarches qu'ils ont ou non effectuées pour être reconnus par la médecine du travail et des aides qu'ils reçoivent ou non. Cela m'a permis d'identifier plusieurs problématiques récurrentes et également un moment spécifique sur lequel se focaliser dans un premier temps, la réunion. La réunion est ainsi devenue le moment à faire évoluer, ainsi en croisant les différents entretiens j'ai pu décrire le prototype à effectuer et les points cruciaux à mettre en place, notamment la possibilité de choisir, de modifier et régler en fonction de ses besoins.",
+    DeroulementTxt2: "À ce jour, la phase de prototypage est en pause et a été analysé à partir de traiter scientifique, faute de moyens humains et techniques. Toutefois, le projet n'a pas été abandonné, il évolue encore à travers un travail de sensibilisation, de facilitation. De mon côté, je cherche toujours à prendre en compte l'accessibilité lors de la production d'expérience, lors de la réalisation de modèle 3D, de leur intégration par rapport à l'utilisateur, le déroulement, et comment prendre contact avec les utilisateurs.",
     Img1: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/these/01.png?raw=true",
     Img2: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/these/02.png?raw=true",
     Img3: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/these/03.png?raw=true",
     Img4: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/these/04.png?raw=true",
     Img5: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/these/05.png?raw=true",
     
-    nextLink:"/portfolio/MixedReality",
-    backLink:"/portfolio/IceCube",
+    nextLink:"/portfolio/VirtualReality",
+    backLink:"/portfolio/Workshop",
 
     // title: "Resume",
     // resume: "L’accessibilité et les technologies XR sont des sujets que j’ai à plusieurs reprise rencontrées et sur lequel je travaille encore actuellement. A la base, cette étude a commencé avec ma thèse de fin d’étude, thèse de mastère spécialisé réalisé en 6 mois pendant notre alternance.",
@@ -434,8 +431,8 @@ const VR = {
     Img4: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/VirtualReality/004.png?raw=true",
     Img5: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/VirtualReality/005.png?raw=true",
     
-    nextLink:"/portfolio/Workshop",
-    backLink:"/portfolio/IceCube",
+    nextLink:"/portfolio/MixedReality",
+    backLink:"/portfolio/These",
 
     // title: "Resume",
     // resume: "Production de projet en VR, présentation, démonstration et mise en place pour expliquer la prise en main de contrôler.",
@@ -482,20 +479,20 @@ const workshop = {
     Title04: "Outils",
     info04: "Figma, FigJam, PowerPoint, Papier, Post-it...",
     ResumeTitle: "Résumé",
-    ResumeTxt: "Séance de workshop réalisé à plusieurs reprises et avec différent public (professionnel et étudiant). Découpage des workshop en fonction des objectifs : Discovery workshop, Empathy workshop, Design workshop, Priorization workshop, Critique workshop. ",
+    ResumeTxt: "Séance de workshop réalisé à plusieurs reprises et avec différents publics (professionnel et étudiant). Découpage dès workshop en fonction des objectifs : Discovery workshop, Empathy workshop, Design workshop, Priorization workshop, Critique workshop. ",
     GoalsTitle: "Objectif",
-    GoalsTxt:"L'objectif lors de la mise en place d'un workshop est d'identifié quel est l'objectifs, pour qui il est destiné, et le temps aloué. Lorsque c'est définis, il faut préparer le workshop, c'est-à-dire son emplois du temps, le matériel nécessaire et si cela se passe en distanciel, hybride ou présentiel.",
-    GoalsTxt2:"Puis il y a le moment du workshop, l'objectif à ce moment là est d'accompagner les participants, les aider à chaque étape pour leurs permettre d'effectuer les différents atelier, c'est-à-dire leurs expliquer, leurs rappeler l'objectifs, les encadrer un minimum et les pousser à se surpasser. En effet, lorsque je connais l'équipe avec qui je travail, j'ai pour habitude de sélectionner un atelier d'ice-breaking permettant de travailler leurs points faible, comme le team building, la créativité ... de même l'ice-breaking permet de mettre dans le bain et d'introduire les objectifs de la journée.",
-    DeroulementTxt: "Un workshop ce déroule en plusieurs étape, la première est la préparation (comme expliqué précédement), on retrouve ensuite le workshop où l'on retrouve une présentation des objectifs de la journée, l'ice-breaking, les ateliers, sans oublié les pauses. Il peut arriver par moment qu'un atelier nécessite plus de temps, dans ce cas il faut réussir à prioriser et faire évoluer la suite des ateliers pour ne pas dépasser l'heure noté. A la fin du workshop, un compte rendu et un Rex est apprécié et nous permet de nous améliorer. Un compte rendus du workshop est souhaité pour permettre aux participants d'avoir une trace de l'évenement.",
-    DeroulementTxt2: "Ayant eu la possibilités d'effectuer des workshops auprès de différents type de participant cela m'a permis de m'améliorer et de ne pas hésit& à rester flexible tout au long de la journée. Il ne faut pas hésité également par moment de prendre le temps de bien expliquer un exercice, et si il se passe bien et apporte beaucoup à notre objectif permettre de rallonger le temps qu'on y consacre. Bien évidemment, au contraire il peux arriver qu'un atelier doivent être modifier en fonction des aptitudes des participants, par exemple si ils ont du mal à réaliser un atelier d'idéation par ecrit peut être su'un atelier de dessin peut être profitable.",
-    Img1: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/MixedReality/001.png?raw=true",
-    Img2: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/MixedReality/002.png?raw=true",
-    Img3: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/MixedReality/003.png?raw=true",
-    Img4: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/MixedReality/004.png?raw=true",
-    Img5: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/MixedReality/005.png?raw=true",
+    GoalsTxt:"L'objectif lors de la mise en place d'un workshop est d'identifier quel est l'objectif, pour qui il est destiné, et le temps alloué. Lorsque c'est défini, il faut préparer le workshop, c'est-à-dire son emploi du temps, le matériel nécessaire et si cela se passe en distancier, hybride ou présentiel.",
+    GoalsTxt2:"Puis il y a le moment du workshop, l'objectif à ce moment-là est d'accompagner les participants, les aider à chaque étape pour leur permettre d'effectuer les différents ateliers, c'est-à-dire leur expliquer, leur rappeler l'objectif, les encadrer un minimum et les pousser à se surpasser. En effet, lorsque je connais l'équipe avec qui je travaille, j'ai pour habitude de sélectionner un atelier d'ice-breaking permettant des travailleurs points faibles, comme le team building, la créativité… de même l'ice-breaking permet de mettre dans le bain et d'introduire les objectifs de la journée.",
+    DeroulementTxt: "Un workshop se déroule en plusieurs étapes, la première est la préparation (comme expliqué précédemment), on retrouve ensuite le workshop où l'on retrouve une présentation des objectifs de la journée, l'ice-breaking, les ateliers, sans oublier les pauses. Il peut arriver par moments qu'un atelier nécessite plus de temps, dans ce cas, il faut réussir à prioriser et faire évoluer la suite des ateliers pour ne pas dépasser l'heure notée. À la fin du workshop, un compte rendu et un Rex est apprécié et nous permet de nous améliorer. Un compte rendu du workshop est souhaité pour permettre aux participants d'avoir une trace de l'événement.",
+    DeroulementTxt2: "Ayant eu la possibilité d'effectuer des workshops auprès de différents types de participant, cela m'a permis de m'améliorer et de ne pas hésiter à rester flexible tout au long de la journée. Il ne faut pas falloir également par moments de prendre le temps de bien expliquer un exercice, et s'il se passe bien et apporte beaucoup à notre objectif, permettre de rallonger le temps que l'on y consacre. Bien évidemment, au contraire, il peut arriver qu'un atelier doive être modifié en fonction des aptitudes des participants, par exemple s'ils ont du mal à réaliser un atelier d'idéation par écrit, peut-être sur un atelier de dessin peut être profitable.",
+    Img1: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/workshop/001.png?raw=true",
+    Img2: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/workshop/002.png?raw=true",
+    Img3: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/workshop/003.png?raw=true",
+    Img4: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/workshop/004.png?raw=true",
+    Img5: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/workshop/005.png?raw=true",
     
-    nextLink:"/portfolio/MixedReality",
-    backLink:"/portfolio/VirtualReality",
+    nextLink:"/portfolio/These",
+    backLink:"/portfolio/IceCube",
 };
 
 
@@ -506,7 +503,6 @@ const socialprofils = {
     email: "m.stevens@protonmail.com",
 };
 export {
-    portfolioTxt,
     meta,
     dataabout,
     dataportfolio,

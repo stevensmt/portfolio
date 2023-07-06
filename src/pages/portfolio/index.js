@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio, meta, portfolioTxt } from "../../content_option";
+import { dataportfolio, meta, } from "../../content_option";
 
 export const Portfolio = () => {
   return (
@@ -20,12 +20,7 @@ export const Portfolio = () => {
            
           </Col>
         </Row>
-        <Row className="sec_sp">
-          <Col lg="111">
-            <p className="description">{portfolioTxt.description}</p>
-            <p className="description"><i>{portfolioTxt.descriptionFR}</i></p>
-          </Col>
-        </Row>
+
 
         <div className="mb-5 po_items_ho">
           {dataportfolio.map((data, i) => {

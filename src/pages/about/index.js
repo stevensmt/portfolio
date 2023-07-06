@@ -34,9 +34,9 @@ export const About = () => {
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <div>
-              <p>{dataabout.aboutmeEN}</p>
+              <p>{dataabout.aboutme}</p>
               <p></p>
-              <p><i>{dataabout.aboutme}</i></p>
+              <p><i>{dataabout.aboutmeEN}</i></p>
 
             </div>
           </Col>
@@ -135,8 +135,8 @@ export const About = () => {
               return (
                 <div className="service_ py-4" key={i}>
                   <h5 className="service__title">{data.title}</h5>
-                  <p className="service_desc">{data.descriptionEn}</p>
-                  <p className="service_desc"><i>{data.description}</i></p>
+                  <p className="service_desc">{data.description}</p>
+                  <p className="service_desc"><i>{data.descriptionEN}</i></p>
                 </div>
               );
             })}
