@@ -9,7 +9,7 @@ import {
 } from "../../../content_option";
 import { Link } from "react-router-dom";
 
-export const IceCube = () => {
+export const Research = () => {
   return (
     <HelmetProvider>
       <Container className="About-header">

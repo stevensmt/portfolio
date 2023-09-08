@@ -5,13 +5,13 @@ const meta = {
 };
 
 const introdata = {
-    title: "I’m Margot Stevens",
+    title: "Bonjour",
     animated: {
-        first: "I love UX design",
-        second: "I design cool immersive experiences",
-        third: "I imagine UserJourney and Level Design",
+        first: "Je suis Margot Stevens",
+        second: "UX Designer",
+        third: "passionnée de technologie XR",
     },
-    description: "Bonjour, je suis UX designer, actuellement spécialisé dans l'immersive expérience, c'est-à-dire les technologies AR-VR-MR.",
+    description: "Je suis UX designer, dans le milieu des expériences immersives, c'est-à-dire les technologies AR-VR-MR depuis maintenant 2ans.",
     your_img_url: "https://github.com/stevensmt/portfolio/blob/master/src/pages/home/img/4x/03.png?raw=true",
 };
 
@@ -76,7 +76,7 @@ const skills = [{
     },
     {
         name: "Unreal Engine",
-        value: 60,
+        value: 50,
     },
     {
         name: "HoloLens",
@@ -154,30 +154,32 @@ const dataportfolio = [
 
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/VR.png?raw=true",
-        description: "Virtual Reality project",
+        description: "StayAlive - Projet VR ",
         link: "/portfolio/VirtualReality",
     },
-    
+
+    {
+        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/IceCube.png?raw=true",
+        description: "UX research - exemple",
+        link: "/portfolio/Research",
+    },
+
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/workshop01.png?raw=true",
-        description: "Workshop",
+        description: "Onboarding - Projet VR",
         link: "/portfolio/Workshop",
     },
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/MR.png?raw=true",
-        description: "Mixed Reality project",
+        description: "HoloDraw - Projet MR",
         link: "/portfolio/MixedReality",
     },
     {
         img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/these.png?raw=true",
-        description: "Accessibility",
+        description: "Thèse - Accessibilité et technologies XR",
         link: "/portfolio/These",
     },
-    {
-        img: "https://github.com/stevensmt/portfolio/blob/master/src/assets/images/IceCube.png?raw=true",
-        description: "Ice Cube",
-        link: "/portfolio/IceCube",
-    },
+
 ];
 
 
@@ -206,11 +208,11 @@ const icecube = {
     GoalsTxt2: "Le jeu est en 2D avec un déplacement vertical, nous nous situons à flanc de montagne à son sommet. En évoluant dans le jeu, nous descendons peu à peu la montagne, faisant par la même occasion évoluer la palette graphique. ",
     DeroulementTxt: "Lors de la création des différents assets graphiqués, j'ai dû effectuer une première ébauche du Level design pour aider à prioriser la production des différents assets. Ce schéma avait pour but de définir les différentes étapes qui doivent se succéder afin de comprendre les mécanismes du jeu et de permettre aux joueurs de mieux comprendre et évoluer dans l'espace. Lors du playtest, le déroulement du Level design a aidé les différents joueurs à évoluer et nous a permis de mettre en avant un point problématique, l'UX-UI design. Suite à ce playtest, nous avons décidé de ralentir la production des assets graphique pour me permettre de reprendre en main la UX-UI design du jeu et la production des différents assets nécessaire.",
     DeroulementTxt2: "Les zones textuelles ont été mises en place par une collègue et de mon côté j'ai commencé un travail sur les signes, UI permettant de mettre en avant les éléments graphique et expliquant à l'utilisateur comment interagir avec. Ses assets ont été réalisés sur Figma, ce qui nous a permis de mettre en condition. Tous les assets graphiques ont également été intégrés au Figma afin de réaliser des maquettes pour permettre de faciliter le travail de la personne s'occupant de l'intégration.",
-    Img1: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/img.png?raw=true",
-    Img2: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/02.png?raw=true",
-    Img3: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/003.png?raw=true",
-    Img4: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/level.png?raw=true",
-    Img5: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/IceCube/01.png?raw=true",
+    Img1: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/Research/img.png?raw=true",
+    Img2: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/Research/02.png?raw=true",
+    Img3: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/Research/003.png?raw=true",
+    Img4: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/Research/level.png?raw=true",
+    Img5: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/Research/01.png?raw=true",
 
 
     // title: "Information",
@@ -273,7 +275,7 @@ const MR = {
     Img4: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/MixedReality/004.png?raw=true",
     Img5: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/MixedReality/005.png?raw=true",
     
-    nextLink:"/portfolio/IceCube",
+    nextLink:"/portfolio/Research",
     backLink:"/portfolio/VirtualReality",
 
     // title: "Resume",
@@ -493,7 +495,7 @@ const workshop = {
     Img5: "https://github.com/stevensmt/portfolio/blob/master/src/pages/portfolio/workshop/005.png?raw=true",
     
     nextLink:"/portfolio/These",
-    backLink:"/portfolio/IceCube",
+    backLink:"/portfolio/Research",
 };
 
 

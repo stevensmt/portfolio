@@ -3,7 +3,7 @@ import { Route, Routes} from "react-router-dom";
 import withRouter from "../hooks/withRouter"
 import { Home } from "../pages/home";
 import { Portfolio } from "../pages/portfolio";
-import { IceCube } from "../pages/portfolio/IceCube";
+import { Research } from "../pages/portfolio/Research";
 import { MixedReality } from "../pages/portfolio/MixedReality";
 import { These } from "../pages/portfolio/these";
 import { VirtualReality } from "../pages/portfolio/VirtualReality";
@@ -27,7 +27,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/IceCube" element={<IceCube />} />
+        <Route path="/Research" element={<Research />} />
         <Route path="/MixedReality" element={<MixedReality />} />
         <Route path="/These" element={<These />} />
         <Route path="/VirtualReality" element={<VirtualReality />} />
