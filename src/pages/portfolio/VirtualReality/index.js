@@ -72,36 +72,17 @@ export const VirtualReality = () => {
         </section>
 
         <section id="home" className="home">
-          <div className="intro_sec d-block d-lg-flex align-items-center ">
-            <div
-              className="h_bgg-image"
-              style={{ backgroundImage: `url(${VR.Img2})` }}
-            ></div>
-          </div>
-        </section>
-
-        <section>
-            <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
-              <Col lg="10">
-                <div className="intro mx-auto justify-content-center">
-                  <p className="mb-1x">{VR.GoalsTxt}</p>
-                  <p className="mb-1x">{VR.GoalsTxt2}</p>
-                </div>
-              </Col>
-            </div>
-            <div>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-            </div>
-        </section>
-
-        
-
-        <section id="home" className="home">
         <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">  
-          <Col lg="7"> 
+        <Col lg="7"> 
+            <div className="intro mx-auto">
+            <h3 className="mb-1x">{VR.GoalsTitle}</h3> 
+              <br></br>
+              <p className="mb-1x">{VR.GoalsTxt}</p> 
+              <p className="mb-1x">{VR.GoalsTxt2}</p> 
+            </div>
+          </Col> 
+          <Col lg="1"></Col>
+          <Col lg="4"> 
           <div className="intro_sec d-block d-lg-flex align-items-center "> 
             <div
               className="h_bgg-image order-1 order-lg-3 h-100"
@@ -109,12 +90,7 @@ export const VirtualReality = () => {
             ></div>
             </div>
           </Col>
-          <Col lg="1"></Col>
-          <Col lg="4"> 
-            <div className="intro mx-auto">
-              <p className="mb-1x">{VR.DeroulementTxt}</p>
-            </div>
-          </Col> 
+
           </div>
           <div>
           <br></br>
@@ -125,15 +101,7 @@ export const VirtualReality = () => {
 
         <section id="home" className="home">
         <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
-          <Col lg="4"> 
-            <div className="intro mx-auto">
-
-              <p className="mb-1x">{VR.DeroulementTxt2}</p> 
-
-            </div>
-          </Col> 
-          <Col lg="1"></Col>
-          <Col lg="7">
+          <Col lg="4">
           <div className="intro_sec d-block d-lg-flex "> 
             <div
               className="h_bgg-image order-1 order-lg-3 h-100"
@@ -141,6 +109,14 @@ export const VirtualReality = () => {
             ></div>
             </div>
           </Col>
+          <Col lg="1"></Col>
+          <Col lg="7"> 
+            <div className="intro mx-auto">
+              <h3 className="mb-1x">{VR.DeroulementTxt}</h3> 
+              <br></br>
+              <p className="mb-1x">{VR.DeroulementTxt2}</p> 
+            </div>
+          </Col> 
           </div>
           <div>
           <br></br>
@@ -149,6 +125,14 @@ export const VirtualReality = () => {
           </div>
         </section>
 
+        <section id="home" className="home">
+          <div className="intro_sec d-block d-lg-flex align-items-center ">
+            <div
+              className="h_bgg-image"
+              style={{ backgroundImage: `url(${VR.Img2})` }}
+            ></div>
+          </div>
+        </section> 
         <section id="home" className="home">
           <div className="intro_sec d-block d-lg-flex align-items-center ">
             <div
@@ -170,7 +154,8 @@ export const VirtualReality = () => {
             <br></br>
             <br></br>
          </div>
-      </section>
+      </section>    
+
       </Container>
     </HelmetProvider>
   );

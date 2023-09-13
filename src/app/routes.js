@@ -7,7 +7,7 @@ import { Research } from "../pages/portfolio/Research";
 import { MixedReality } from "../pages/portfolio/MixedReality";
 import { These } from "../pages/portfolio/these";
 import { VirtualReality } from "../pages/portfolio/VirtualReality";
-import { Workshop } from "../pages/portfolio/workshop";
+import { Onboarding } from "../pages/portfolio/Onboarding";
 import { About } from "../pages/about";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
@@ -31,7 +31,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/MixedReality" element={<MixedReality />} />
         <Route path="/These" element={<These />} />
         <Route path="/VirtualReality" element={<VirtualReality />} />
-        <Route path="/Workshop" element={<Workshop />} />
+        <Route path="/Onboarding" element={<Onboarding />} />
         <Route path="*" element={<Home />} />
 
 

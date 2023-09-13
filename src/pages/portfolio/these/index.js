@@ -74,37 +74,19 @@ export const These = () => {
           </div>
         </section>
 
-        <section id="home" className="home">
-          <div className="intro_sec d-block d-lg-flex align-items-center ">
-            <div
-              className="h_bgg-image"
-              style={{ backgroundImage: `url(${these.Img2})` }}
-            ></div>
-          </div>
-        </section>
-
-        <section>
-            <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
-              <Col lg="10">
-                <div className="intro mx-auto justify-content-center">
-                  <p className="mb-1x">{these.GoalsTxt}</p>
-                  <p className="mb-1x">{these.GoalsTxt2}</p>
-                </div>
-              </Col>
-            </div>
-            <div>
-              <br></br>
-              <br></br>
-              <br></br>
-              <br></br>
-            </div>
-        </section>
-
         
-
         <section id="home" className="home">
         <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">  
-          <Col lg="7"> 
+        <Col lg="7"> 
+            <div className="intro mx-auto">
+            <h3 className="mb-1x">{these.GoalsTitle}</h3> 
+              <br></br>
+              <p className="mb-1x">{these.GoalsTxt}</p> 
+              <p className="mb-1x">{these.GoalsTxt2}</p> 
+            </div>
+          </Col> 
+          <Col lg="1"></Col>
+          <Col lg="4"> 
           <div className="intro_sec d-block d-lg-flex align-items-center "> 
             <div
               className="h_bgg-image order-1 order-lg-3 h-100"
@@ -112,12 +94,7 @@ export const These = () => {
             ></div>
             </div>
           </Col>
-          <Col lg="1"></Col>
-          <Col lg="4"> 
-            <div className="intro mx-auto">
-              <p className="mb-1x">{these.DeroulementTxt}</p>
-            </div>
-          </Col> 
+
           </div>
           <div>
           <br></br>
@@ -128,15 +105,7 @@ export const These = () => {
 
         <section id="home" className="home">
         <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
-          <Col lg="4"> 
-            <div className="intro mx-auto">
-
-              <p className="mb-1x">{these.DeroulementTxt2}</p> 
-
-            </div>
-          </Col> 
-          <Col lg="1"></Col>
-          <Col lg="7">
+          <Col lg="4">
           <div className="intro_sec d-block d-lg-flex "> 
             <div
               className="h_bgg-image order-1 order-lg-3 h-100"
@@ -144,6 +113,14 @@ export const These = () => {
             ></div>
             </div>
           </Col>
+          <Col lg="1"></Col>
+          <Col lg="7"> 
+            <div className="intro mx-auto">
+              <h3 className="mb-1x">{these.DeroulementTxt}</h3> 
+              <br></br>
+              <p className="mb-1x">{these.DeroulementTxt2}</p> 
+            </div>
+          </Col> 
           </div>
           <div>
           <br></br>
@@ -151,6 +128,15 @@ export const These = () => {
           <br></br>
           </div>
         </section>
+
+        <section id="home" className="home">
+          <div className="intro_sec d-block d-lg-flex align-items-center ">
+            <div
+              className="h_bgg-image"
+              style={{ backgroundImage: `url(${these.Img2})` }}
+            ></div>
+          </div>
+        </section> 
 
         <section id="home" className="home">
           <div className="intro_sec d-block d-lg-flex align-items-center ">
