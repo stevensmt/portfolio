@@ -133,28 +133,17 @@ export const VirtualReality = () => {
             ></div>
           </div>
         </section> 
-        <section id="home" className="home">
-          <div className="intro_sec d-block d-lg-flex align-items-center ">
-            <div
-              className="h_bgg-image"
-              style={{ backgroundImage: `url(${VR.Img5})` }}
-            ></div>
-          </div>
-          <div className="d-block d-lg-flex align-items-center ">
-            <div className="intro mx-auto">
-              <a href={VR.backLink}><b>Previous project</b></a>
+        <section id="home">
+          <div className="d-lg-flex align-items-center end-img">
+            <div className="intro mx-auto align-items-center">
+              <a className="txt" href={VR.backLink}><b>Previous project</b></a>
             </div>
-            <div className="intro mx-auto"></div>
-            <div className="intro mx-auto">
-              <a href={VR.nextLink}><b>Next project</b></a>
+            <div className="intro mx-auto align-items-center">
+              <a className="txt" href={VR.nextLink}><b>Next project</b></a>
             </div>
+            
           </div>
-          <div>
-            <br></br>
-            <br></br>
-            <br></br>
-         </div>
-      </section>    
+      </section>   
 
       </Container>
     </HelmetProvider>

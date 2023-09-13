@@ -232,3 +232,12 @@ section {
 .intro_sec .h_bg-image {
     filter: saturate(1);
 }
+
+.end-img {
+    height: 20vh;
+    min-height: 10vh;  
+    margin-bottom: 30px;
+    border-radius: 10px;
+    display: block;
+    background-color: #C5F4FF;
+}

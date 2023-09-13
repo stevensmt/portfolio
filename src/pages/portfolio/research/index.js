@@ -79,6 +79,9 @@ export const Research = () => {
               <br></br>
               <p className="mb-1x">{research.GoalsTxt}</p> 
               <p className="mb-1x">{research.GoalsTxt2}</p> 
+              <p className="mb-1x">{research.GoalsTxt3}</p> 
+              <p className="mb-1x">{research.GoalsTxt4}</p> 
+              <p className="mb-1x">{research.GoalsTxt5}</p> 
             </div>
           </Col> 
           <Col lg="1"></Col>
@@ -93,6 +96,7 @@ export const Research = () => {
 
           </div>
           <div>
+          <br></br>
           <br></br>
           <br></br>
           <br></br>
@@ -118,35 +122,23 @@ export const Research = () => {
             </div>
           </Col> 
           </div>
-          <div>
-          <br></br>
-          <br></br>
-          <br></br>
-          </div>
         </section>
 
         <section id="home" className="home">
-          <div className="intro_sec d-block d-lg-flex align-items-center ">
-            <div
-              className="h_bgg-image"
-              style={{ backgroundImage: `url(${research.Img5})` }}
+          <div className="intro_sec d-lg-flex align-items-center">
+            <div className="img-last" style={{ backgroundImage: `url(${research.Img5})` }}
             ></div>
           </div>
-          <div className="d-block d-lg-flex align-items-center ">
-            <div className="intro mx-auto">
-              <a href={research.backLink}><b>Previous project</b></a>
+          <div className="d-lg-flex align-items-center end-img">
+            <div className="intro mx-auto align-items-center">
+              <a className="txt" href={research.backLink}><b>Previous project</b></a>
             </div>
-            <div className="intro mx-auto"></div>
-            <div className="intro mx-auto">
-              <a href={research.nextLink}><b>Next project</b></a>
-            </div>
+            <div className="intro mx-auto align-items-center">
+              <a className="txt" href={research.nextLink}><b>Next project</b></a>
+            </div> 
           </div>
-          <div>
-            <br></br>
-            <br></br>
-            <br></br>
-         </div>
       </section>
+      
       </Container>
     </HelmetProvider>
   );

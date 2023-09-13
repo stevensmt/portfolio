@@ -134,51 +134,17 @@ export const MixedReality = () => {
             ></div>
           </div>
         </section> 
-        <section id="home" className="home">
-          <div className="intro_sec d-block d-lg-flex align-items-center ">
-            <div
-              className="h_bgg-image"
-              style={{ backgroundImage: `url(${MR.Img5})` }}
-            ></div>
-          </div>
-          <div className="d-block d-lg-flex align-items-center ">
-            <div className="intro mx-auto">
-              <a href={MR.backLink}><b>Previous project</b></a>
-            </div>
-            <div className="intro mx-auto"></div>
-            <div className="intro mx-auto">
-              <a href={MR.nextLink}><b>Next project</b></a>
-            </div>
-          </div>
-          <div>
-            <br></br>
-            <br></br>
-            <br></br>
-         </div>
-      </section>    
 
-
-        <section id="home" className="home">
-          <div className="intro_sec d-block d-lg-flex align-items-center ">
-            <div
-              className="h_bgg-image"
-              style={{ backgroundImage: `url(${MR.Img5})` }}
-            ></div>
-          </div>
-          <div className="d-block d-lg-flex align-items-center ">
-            <div className="intro mx-auto">
-              <a href={MR.backLink}><b>Previous project</b></a>
+      <section id="home">
+          <div className="d-lg-flex align-items-center end-img">
+            <div className="intro mx-auto align-items-center">
+              <a className="txt" href={MR.backLink}><b>Previous project</b></a>
             </div>
-            <div className="intro mx-auto"></div>
-            <div className="intro mx-auto">
-              <a href={MR.nextLink}><b>Next project</b></a>
+            <div className="intro mx-auto align-items-center">
+              <a className="txt" href={MR.nextLink}><b>Next project</b></a>
             </div>
+            
           </div>
-          <div>
-            <br></br>
-            <br></br>
-            <br></br>
-         </div>
       </section>
       </Container>
     </HelmetProvider>
