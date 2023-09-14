@@ -79,6 +79,9 @@ export const VirtualReality = () => {
               <br></br>
               <p className="mb-1x">{VR.GoalsTxt}</p> 
               <p className="mb-1x">{VR.GoalsTxt2}</p> 
+              <br></br>
+              <br></br>
+              <br></br>
             </div>
           </Col> 
           <Col lg="1"></Col>
@@ -115,6 +118,9 @@ export const VirtualReality = () => {
               <h3 className="mb-1x">{VR.DeroulementTxt}</h3> 
               <br></br>
               <p className="mb-1x">{VR.DeroulementTxt2}</p> 
+              <br></br>
+              <br></br>
+              <br></br>
             </div>
           </Col> 
           </div>

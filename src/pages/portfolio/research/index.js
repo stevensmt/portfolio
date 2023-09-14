@@ -82,6 +82,9 @@ export const Research = () => {
               <p className="mb-1x">{research.GoalsTxt3}</p> 
               <p className="mb-1x">{research.GoalsTxt4}</p> 
               <p className="mb-1x">{research.GoalsTxt5}</p> 
+              <br></br>
+              <br></br>
+              <br></br>
             </div>
           </Col> 
           <Col lg="1"></Col>
@@ -119,6 +122,9 @@ export const Research = () => {
               <h3 className="mb-1x">{research.DeroulementTxt}</h3> 
               <br></br>
               <p className="mb-1x">{research.DeroulementTxt2}</p> 
+              <br></br>
+              <br></br>
+              <br></br>
             </div>
           </Col> 
           </div>

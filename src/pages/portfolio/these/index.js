@@ -83,6 +83,9 @@ export const These = () => {
               <br></br>
               <p className="mb-1x">{these.GoalsTxt}</p> 
               <p className="mb-1x">{these.GoalsTxt2}</p> 
+              <br></br>
+              <br></br>
+              <br></br>
             </div>
           </Col> 
           <Col lg="1"></Col>
@@ -121,6 +124,9 @@ export const These = () => {
               <p className="mb-1x">{these.DeroulementTxt2}</p> 
               <p className="mb-1x">{these.DeroulementTxt3}</p> 
               <p className="mb-1x">{these.DeroulementTxt4}</p> 
+              <br></br>
+              <br></br>
+              <br></br>
             </div>
           </Col> 
           </div>

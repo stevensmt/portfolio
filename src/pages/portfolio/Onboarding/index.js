@@ -80,6 +80,9 @@ export const Onboarding = () => {
               <br></br>
               <p className="mb-1x">{onboarding.GoalsTxt}</p> 
               <p className="mb-1x">{onboarding.GoalsTxt2}</p> 
+              <br></br>
+              <br></br>
+              <br></br>
             </div>
           </Col> 
           <Col lg="1"></Col>
@@ -116,6 +119,9 @@ export const Onboarding = () => {
               <h3 className="mb-1x">{onboarding.DeroulementTxt}</h3> 
               <br></br>
               <p className="mb-1x">{onboarding.DeroulementTxt2}</p> 
+              <br></br>
+              <br></br>
+              <br></br>
             </div>
           </Col> 
           </div>
